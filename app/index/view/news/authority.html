@@ -1,0 +1,97 @@
+{include file="public/header"}
+<link rel="stylesheet" type="text/css" href="__CSS__/news.css" />
+<!--main-->
+<div class="lh-main other">
+    <!--ban-->
+    {include file="public/ban"}
+    <div class="lh-position" style="background:#F5F5F5">
+        {include file="public/second_menu"}
+        <!--通知公告-->
+        <div class="lh-announcement">
+            <div class="container">
+                <ul class="lh-news-item lh-flex clearfix" id="erlo_lj_data">
+
+                </ul>
+                <div class="lh-loading erlo_lj_more">加载更多</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer-->
+{include file="public/footer"}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.erlo_lj_more').click()
+    })
+
+    $('.erlo_lj_more').click(function () {
+        var obj = $(this);
+        var data = { page: obj.attr('page'), };
+        if (!data.page) data.page = 1;
+        var lastpage = obj.attr('lastpage');
+        if (!lastpage) lastpage = 1;
+        if (obj.hasClass('lj')) return false;
+        console.log(3,data.page ,lastpage)
+        if (data.page > lastpage) return;
+        console.log(4)
+        $.ajax({
+            url: "{url('index/news/authority')}",
+            type: 'post',
+            data: data,
+            dataType: "json",
+            contentType: "application/x-www-form-urlencoded; charset=utf-8",
+            beforeSend: function () {
+                obj.addClass('lj');
+            },
+            error: function () {
+                obj.removeClass('lj');
+            },
+            success: function (res) {
+                console.log(res);
+                lastpage = res.last_page;
+                var dataArr = res.data;
+                console.log(data)
+                obj.hide();
+                if (dataArr) {
+                    var html = ''
+                    dataArr.forEach(function (item) {
+                        html += "<li>" +
+                            "<a href='/index/news/detail/id/"+ item.id +"'>" +
+                            "<div class='imgbox'>" +
+                            "<div class='img' style='background-image:url(" + item.thumb + " ');'></div>" +
+                            "<h2>" + item.create_time + "</h2>" +
+                            "</div>" +
+                            "<div class='text'>" +
+                            "<h2>" + item.introduction_title + "</h2>" +
+                            "<h3>查看详情<i class='iconfont icon-ai37'></i></h3>" +
+                            "</div>" +
+                            "</a>" +
+                            "</li>"
+                    })
+
+                    $('#erlo_lj_data').append(html);
+                    data.page++;
+                    if (obj.attr('fun')) {
+                        var fun = obj.attr('fun');
+                        eval(fun + "($('#erlo_lj_data .erlo_li'))");
+                    }
+                    obj.removeClass('lj').attr('page', data.page).attr('lastpage', lastpage);
+                } else {
+                    obj.text('没有了')
+                }
+            }
+        })
+    })
+
+    $(window).bind('scroll', function () {
+        if ($('.erlo_lj_more').size() > 0) {
+            var st = $('.erlo_lj_more').offset().top;
+            if ($('#erlo_lj_data .erlo_li').size() > 0) st = $('#erlo_lj_data .erlo_li').last().offset().top;
+            if ($(window).scrollTop() > st - $(window).height() / 2 - $(window).height() / 3) {
+                $('.erlo_lj_more').click();
+            }
+        }
+    })
+
+</script>

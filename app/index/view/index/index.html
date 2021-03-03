@@ -1,0 +1,427 @@
+{include file="public/header"}
+<link rel="stylesheet" type="text/css" href="__CSS__/index.css" />
+<div class="lh-main">
+	<!--banner-->
+	<div class="lh-banner">
+		<ul class="swiper-wrapper bd">
+			<li class="swiper-slide hd">
+				<div class="a">
+					<div class="img" style="background-image:url({$logo.thumb});"></div>
+					<div class="text">
+						<h2 data-swiper-parallax="-3500">
+							{$logo.introduction_title}
+						</h2>
+						<pre class="zt1 lhSplit" data-swiper-parallax="-4500">{$logo['introduction_tag']}</pre>
+						<pre class="ccont" data-swiper-parallax="-500">{$logo['ccont']}</pre>
+					</div>
+					<!-- 新添首页新闻列表 -->
+					<ul class="new-list animated lightSpeedIn ">
+						{volist name="hot" id="vo"}
+						<li>
+							<a href='{:url("/index/news/detail",["id"=>$vo.id])}' title="">
+								<div class="text1">
+									<h2>
+										>>>{$vo.introduction_title}
+									</h2>
+								</div>
+							</a>
+						</li>
+						{/volist}
+						<li><a href='{:url("/index/news/index")}' class="text1"> >>> 查看更多 </a></li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+		<ul class="lh-banner-hd"></ul>
+		<a href="javascript:;" class="lh-mouse">
+			<i class="iconfont icon-shubiao"></i>
+			<h2>鼠标滚动</h2>
+		</a>
+	</div>
+	<div class="lh-position">
+		<!--about-->
+		<div class="lh-about padding90">
+			<div class="lh-about-bg wow fadeInLeft"><img src="__IMG__/cm.png" title="查米教育" /></div>
+			<div class="container clearfix">
+				<div class="lh-about-text left">
+					<div class="lh-public-h wow fadeInUp">
+						<h2>关于我们</h2>
+						<h3 class="zt1">About Us</h3>
+					</div>
+					<div class="cont wow fadeInUp">
+						<h2>
+							{$row.introduction_title}
+						</h2>
+						<h3 class="zt1">
+							{$row.introduction_tag}
+						</h3>
+						<pre class="ccont">{$row.ccont}</pre>
+						<a href='{:url("/index/chami/index")}' class="lh-look">
+							<i class="iconfont icon-liulan"></i>查看详情
+						</a>
+					</div>
+				</div>
+				<div class="lh-about-img lh-public-banner right wow zoomIn">
+					<ul class="swiper-wrapper bd">
+						<li class="swiper-slide">
+							<a href="javascript:;">
+								<div class="img" style="background-image:url(__IMG__/20190827/1009129365.jpg);">
+								</div>
+							</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="javascript:;">
+								<div class="img" style="background-image:url(__IMG__/20190827/1011334912.jpg);">
+								</div>
+							</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="javascript:;">
+								<div class="img" style="background-image:url(__IMG__/20190827/1011398689.jpg);">
+								</div>
+							</a>
+						</li>
+					</ul>
+					<ul class="lh-about-hd bannerbd"></ul>
+				</div>
+			</div>
+		</div>
+		<!--statistical-->
+		<div class="lh-statistical padding75" style="background-image:url(__IMG__/cs/a7.jpg);">
+			<div class="container">
+				<ul class="lh-statistical-item lh-flex clearfix lh-power">
+					<li class="wow fadeInUp">
+						<div>
+							<h2 class="zt2">
+								<b data-to='45237' data-speed='1500' class="timer">
+									45237
+								</b>
+							</h2>
+							<h3>
+								毕业人数
+							</h3>
+						</div>
+					</li>
+					<li class="wow fadeInUp">
+						<div>
+							<h2 class="zt2">
+								<b data-to='93' data-speed='1500' class="timer">
+									93
+								</b>%
+							</h2>
+							<h3>
+								通过率
+							</h3>
+						</div>
+					</li>
+					<li class="wow fadeInUp">
+						<div>
+							<h2 class="zt2">
+								<b data-to='227' data-speed='1500' class="timer">
+									227
+								</b>
+							</h2>
+							<h3>
+								专业导师
+							</h3>
+						</div>
+					</li>
+					<li class="wow fadeInUp">
+						<div>
+							<h2 class="zt2">
+								<b data-to='97' data-speed='1500' class="timer">
+									97
+								</b>%
+							</h2>
+							<h3>
+								专业覆盖
+							</h3>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--news,-->
+		<div class="lh-news padding100">
+			<div class="container clearfix">
+				<div class="lh-news-l left">
+					<div class="lh-public-h wow fadeInUp clearfix" onclick="window.location.href=''">
+						<h2>{$menu_info.name}</h2>
+						<h3 class="zt1">{$menu_info.alias}</h3>
+						<a href="{:url("/index/news/index")}">More</a>
+					</div>
+					<ul class="lh-hot-news clearfix lh-flex">
+						{volist name="hot" id="vo"}
+						<li class="wow fadeInUp">
+							<a href="{:url("/index/news/detail",["id"=>$vo.id])}" target="_self">
+								<div class="img" style="background-image:url({$vo.thumb});">
+								</div>
+								<div class="text">
+									<h2>
+										{$vo.introduction_title}
+									</h2>
+									<h3>
+										{$vo.ccont}
+									</h3>
+									<h4>
+										{$vo.create_time}
+									</h4>
+								</div>
+							</a>
+						</li>
+						{/volist}
+					</ul>
+				</div>
+				<!--喜报-->
+				<div class="lh-news-r right wow zoomIn">
+					<div class="lh-news-r-content" id="rollCon">
+						<ul id="rollSubject">
+							{volist name="$goodnews_list" id="vo"}
+							<li class="author-x">
+								<img src="{$vo.thumb}" alt="" class="author" title="" />
+								<div class="author-c-x">
+									<div class="author-name c-f-14">{$vo.introduction_title}</div>
+									<pre>{$vo.ccont}</pre>
+								</div>
+							</li>
+							{/volist}
+						</ul>
+						<ul id="rollCopy"></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--business-->
+		<div class="lh-business-box padding90" style='background-image:url({$business.thumb});'>
+			<div class="container">
+				<div class="lh-business-h wow fadeInUp">
+					<h2>
+						{$business.name}
+					</h2>
+					<h3 class="zt1">
+						{$business.alias}
+					</h3>
+				</div>
+				<ul class="lh-business lh-flex clearfix">
+					{volist name="business_info" id="vo"}
+					<li class="wow fadeInUp">
+						<a href="">
+							<div class="icon"></div>
+							<div class="text">
+								<h2>
+									{$vo.introduction_title}
+								</h2>
+								<pre>
+									{$vo.ccont}
+								</pre>
+								<h4 data-url="{$config.customer_link}"
+									class="lhLjzx">
+									立即咨询
+								</h4>
+							</div>
+						</a>
+					</li>
+					{/volist}
+				</ul>
+			</div>
+		</div>
+		<!--schools-->
+		<div class="lh-schools padding75">
+			<div class="container">
+				<div class="lh-public-h wow fadeInUp clearfix">
+					<h2>{$hot_school.name}</h2>
+					<h3 class="zt1">{$hot_school.tag}</h3>
+					<a href="javascript:;" class="lhLjzx" data-url="https://w16.53kf.com/webCompany.php?kf_sign=zk0MDMTYwNE2OTExMzI3NTQzNDQ2MDA2NzIyNDk2MTM=&arg=10249613&style=1&language=cn&charset=GBK&kflist=off&kf=&zdkf_type=1&lnk_overflow=0&callback_id6ds=&referer=https%3A%2F%2Fwww.chamiedu.com%2Findex%2Findex%2Findex.html&keyword=https%3A%2F%2Fwww.chamiedu.com%2Findex%2Fcontact%2Frecruitment.html&tfrom=1&tpl=crystal_blue&uid=449f84e56b4f7ed7cc7c66bdddbe15e7&is_group=&is_group=&timeStamp=1607940374304&ucust_id=">More</a>
+				</div>
+				<div class="lh-position lh-overflow">
+					<div class="lh-schools-banner lh-public-banner" data-delay="1500" data-loop="1" data-autoplay="1"
+						data-slidesPerView="3" data-webslidesPerView="1">
+						<ul class="swiper-wrapper bd lh-schools-item">
+							{volist name="school_list" id="vo"}
+							<li class="swiper-slide wow fadeInUp">
+								<a>
+									<div class="img" style="background-image:url({$vo.thumb});">
+									</div>
+									<div class="text clearfix">
+										<h2>
+											<span>
+												{$vo.title}
+											</span>
+											<em>
+												官方合作
+											</em>
+										</h2>
+										<h3 data-url="{$config.customer_link}"
+											class="lhLjzx">
+											立即咨询
+										</h3>
+									</div>
+								</a>
+							</li>
+							{/volist}
+						</ul>
+						<ul class="lh-schools-hd bannerbd"></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--majors-->
+				<div class="lh-majors padding170" style="background-image:url({$parent_info.thumb});">
+			<div class="container clearfix wow zoomIn">
+				<div class="lh-majors-l left">
+					<div class="lh-public-h wow fadeInUp clearfix">
+						<h2>{$parent_info.name}</h2>
+						<h3 class="zt1 lhSplit">Hot Majors</h3>
+					</div>
+					<pre>{$parent_info.description}
+            </pre>
+				</div>
+				<div class="lh-majors-r left">
+					<div class="lh-overflow">
+						<div class="lh-majors-banner lh-public-banner">
+							<div class="swiper-wrapper bd">
+								<div class="swiper-slide">
+									<ul class="lh-majors-item clearfix">
+										{volist name="second_info" id="vo"}
+										<li class="{$key+1==1?'on':''}">
+											<a href="javascript:;">
+												<div class="img">
+													<img src="{$vo.thumb}" />
+												</div>
+												<h2>
+													{$vo.title}
+												</h2>
+												<pre>{$vo.description}</pre>
+											</a>
+										</li>
+									 {if condition="(($key+1)%12==0 && ($key+1)!=$vo.count)"}
+                            </ul>             
+                            <div class="lh-majors-info">
+                                <pre class="cont cleafix">{$vo.ccont}
+                                </pre>
+                                <a href="javascript:;"
+                                   data-url="{$config.customer_link}"
+                                   class="lhLjzx" title="">立即咨询</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="lh-majors-item clearfix">
+                                {/if}
+                                {/volist}
+                            </ul>
+                            <div class="lh-majors-info">
+                                <pre class="cont cleafix"></pre>
+                                <a href="javascript:;"  class="lhLjzx">立即咨询</a>
+                            </div>
+                        </div>
+							</div>
+							<ul class="lh-majors-hd bannerbd"></ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--advantages-->
+		<div class="lh-advantages padding90">
+			<div class="container">
+				<div class="lh-business-h wow fadeInUp">
+					<h2>{$advantage_list.name}</h2>
+					<h3 class="zt1">{$advantage_list.tag}</h3>
+				</div>
+				<ul class="lh-advantages-item lh-flex clearfix">
+					{volist name="advantage_info" id="vo"}
+					<li class="wow fadeInUp  flip-container">
+						<a href="javascript:;"
+							data-url="{$config.customer_link}"
+							class="lhLjzx front">
+							<div class="icon"></div>
+							<div class="text">
+								<h2>
+									{$vo.title}
+								</h2>
+								<pre class="c-elipsis-3">{$vo.description}</pre>
+								<h3>立即咨询</h3>
+							</div>
+						</a>
+						<a href="javascript:;"
+							data-url="{$config.customer_link}"
+							class="lhLjzx back ">
+							<div class="text">
+								<pre>{$vo.description}</pre>
+								<h3>立即咨询</h3>
+							</div>
+						</a>
+					</li>
+					{/volist}
+				</ul>
+			</div>
+		</div>
+		<!--dream-->
+		<div class="lh-dream padding145" style="background-image:url({$aid_info.thumb});background-position: center;">
+			<div class="container">
+				<div class="lh-dream-l">
+					<div class="lh-public-h wow fadeInUp clearfix">
+						<h2>
+							{$aid_info.name}
+						</h2>
+						<h3 class="zt1 lhSplit">
+							{$aid_info.alias}
+						</h3>
+					</div>
+					{volist name="aid_list" id="vo"}
+					<dl class="wow fadeInUp">
+						<dt>
+							{$vo.introduction_title}
+						</dt>
+						<dd>
+							{$vo.introduction_content}
+						</dd>
+					</dl>
+					{/volist}
+				</div>
+				<ul class="lh-dream-zx wow fadeInUp">
+					<li>
+						<a href="javascript:;"
+							data-url="{$config.customer_link}"
+							class="lhLjzx">
+							<i class="iconfont icon-zixun"></i>
+							<h2>立即咨询</h2>
+						</a></li>
+					<li>
+						<a href="javascript:;">
+							<i class="iconfont icon-tubiao210"></i>
+							<h2>联系电话</h2>
+						</a>
+						<div class="tel">
+							<h3>咨询热线</h3>
+							<h4 class="zt1">
+								{$config.contact_phone}
+							</h4>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+{include file="public/footer"}
+<script type="text/javascript">
+	var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+	var rollCon = document.getElementById('rollCon');
+	var rollSubject = document.getElementById('rollSubject');
+	var rollCopy = document.getElementById('rollCopy');
+	rollCopy.innerHTML = rollSubject.innerHTML;
+	if (($('#rollSubject').height() > 0) && ($('#rollSubject').height() < $('#rollCon').height())) {
+		$('#rollCon').css('height', $('#rollSubject').height());
+		setInterval(Marquee, 50);
+	} else if (($('#rollSubject').height() > 0) && ($('#rollSubject').height() >= $('#rollCon').height())) {
+		setInterval(Marquee, 50);
+	}
+	function Marquee() {
+		if ((rollCopy.offsetTop - rollSubject.offsetTop) < rollCon.scrollTop)
+			rollCon.scrollTop = 0;
+		else {
+			rollCon.scrollTop++;
+		}
+	}
+</script>

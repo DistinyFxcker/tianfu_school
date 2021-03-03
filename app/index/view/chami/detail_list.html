@@ -1,0 +1,209 @@
+{include file="public/header"}
+<link rel="stylesheet" type="text/css" href="__CSS__/photodetails.css" />
+<!--main-->
+<div class="lh-main other">
+    <!--ban-->
+    {include file="public/ban"}
+    <div class="lh-position" style="background:#F5F5F5">
+        <div class="lh-announcement">
+            <div class="container " style="overflow: hidden;">
+				<a href="javascript:history.back(-1)" class="photo-btn"><i class="iconfont icon-l-xiangzuo"></i>返回上一页</a>
+                <div class="photo-img-x  lh-layerImg" id="masonry">
+                    {volist name="thumbs_list.thumbs" id="vo"}
+                    <a href="{$vo}" class="photo-item box" data-content=''>
+                        <img src="{$vo}" alt="查米教育" class="photo-img">
+                    </a>
+                    {/volist}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{include file="public/footer"}
+<script src="__JS__/masonry-docs.min.js"></script>
+<script>
+    ; (function ($) {
+        $.fn.extend({
+            gallery: function () {
+                var windowWidth = $(window).width();
+                if (windowWidth < 980) {
+                    $(this).on("click", function () {
+                        var self = $(this);
+                        self.attr('href', 'javascript:;')
+                        var img = $(this).find('img').attr('src')
+                        if (img) {
+                            var html = '<div class="lh-layerImg-box"><img src="' + img + '" /><a href="javascript:;" class="lh-layerImg-close"><i class="iconfont icon-l-close"></i></a><div>';
+                            $('body').append(html);
+                        }
+                    })
+                    $(document).on('click', '.lh-layerImg-close,.lh-layerImg-box', function () {
+                        $('.lh-layerImg-box').remove();
+                    });
+                    $(document).on('click', '.lh-layerImg-box img', function (e) {
+                        e.stopPropagation();
+                    });
+                } else {
+                    $(this).on("click", function () {
+                        var self = $(this),
+                            link = self.parent().find("a"),
+                            bd = $("body"),
+                            html = "\
+                         <div class='gallery-overlay' >\
+                            <div class='gallery-content'>\
+                                <div div class='gallery-photo-x'>\
+                                    <div class='gallery-photo-bg-x'>\
+                                    <img src='"+ self.attr("href") + "' alt=''class='gallery-img-bg' />\
+                                    <span class='gallery-prev'>&lt;</span>\
+                                    <span class='gallery-next'>&gt;</span>\
+                                </div>\
+                                <div class='min-x'>\
+                                    <div class='min-c'>\
+                                        <div class='gallery-thumb'></div>\
+                                    </div>\
+                                </div>\
+                            </div >\
+                            <span class='gallery-close' title='关闭'>&times;</span>\
+                            <div class='gallery-text'>\
+                                <pre class='content-text'>阿打算打所大所大大萨达多</pre> \
+                            </div>\
+                            </div >\
+                        </div >\
+                        ";
+                        bd.css("overflow-y", "hidden").append(html);
+                        var overlay = $(".gallery-overlay"),
+                            cont = $(".gallery-content"),
+                            photo = $(".gallery-photo-x"),
+                            photobg = $(".gallery-img-bg"),
+                            photoImg = photo.find("img"),
+                            thumb = $(".gallery-thumb"),
+                            contText = $('.content-text'),
+                            prev = $(".gallery-prev"),
+                            next = $(".gallery-next"),
+                            close = $(".gallery-close"),
+                            hideHeader = $('.lh-header'),
+                            str = "";
+
+                        hideHeader.hide()
+
+                        //浏览器缩放时候，重置
+                        function toResize() {
+                            var height = $(window).height();
+                            overlay.height(height);
+                            // photo.css({ "height": height - 200 });
+                            // photoImg.css({ "max-height": height - 200 });//解决safari下bug
+                        }
+                        toResize();
+                        $(window).resize(function () {
+                            toResize();
+                        });
+
+
+                        //生成缩略图列表
+                        link.each(function () {
+                            var href = $(this).attr("href"),
+                                cont = $(this).attr('data-content'),
+                                src = $(this).find("img").attr("src"),
+                                act = "<a href='" + href + "' data-content='" + cont + "'><img src='" + src + "'/></a>";
+                            str += act;
+                        });
+
+                        thumb.append(str);
+
+                        //图片切换
+                        var thumbLink = thumb.find("a"),
+                            len = thumbLink.length - 1,
+                            index = link.index(this);
+
+                        switchPhoto(index);
+
+                        thumb.on("click", "a", function () {
+                            index = thumbLink.index(this);
+                            hideHeader.hide()
+                            switchPhoto(index);
+                            return false;
+                        });
+
+                        //切换下一个
+                        function switchPrev() {
+                            index--;
+                            if (index < 0) {
+                                index = len;
+                            }
+                            switchPhoto(index);
+                        }
+                        //切换上一个
+                        function switchNext() {
+                            index++;
+                            if (index > len) {
+                                index = 0;
+                            }
+                            switchPhoto(index);
+                        }
+
+                        prev.on("click", function () {
+                            switchPrev();
+                        });
+                        next.on("click", function () {
+                            switchNext();
+                        });
+                        photo.on("click", "img", function () {
+                            switchNext();
+                        });
+                        overlay.on("click", function () {
+                            closeOverlay()
+                        })
+
+                        cont.on("click", function (e) {
+                            stopEvent(e)
+                        })
+                        // 阻止事件冒泡
+                        function stopEvent(event) {
+                            var e = arguments.callee.caller.arguments[0] || event;
+                            if (e && e.stopPropagation) {
+                                e.stopPropagation();
+                            } else if (window.event) {
+                                window.event.cancelBubble = true;
+                            }
+                        }
+
+                        //关闭层
+                        function closeOverlay() {
+                            overlay.remove();
+                            $('.lh-header').show()
+                            bd.css("overflow-y", "auto");
+                        }
+
+                        function switchPhoto(index) {
+                            var _this = thumbLink.eq(index);
+                            _this.addClass("selected").siblings().removeClass("selected");
+                            photobg.attr("src", _this.attr("href"));
+                            contText.html(_this.attr('data-content'))
+                        }
+
+                        close.on("click", function () {
+                            closeOverlay();
+                        });
+
+                        return false;
+                    });
+                }
+            }
+        });
+    })(jQuery);
+</script>
+<script>
+    $(function () {
+        $('.photo-img-x a').gallery();
+        var $container = $('#masonry');
+        $container.imagesLoaded(function () {
+            $container.masonry({
+                itemSelector: '.box',
+                gutter: 5,
+                isAnimated: true,
+            });
+        });
+    });
+</script>
+</body>
+
+</html>

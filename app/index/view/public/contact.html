@@ -1,0 +1,29 @@
+<!--other nav-->
+<div class="lh-other-nav-box">
+    <div class="container clearfix">
+        <ul class="lh-other-nav left clearfix">
+            <li>
+                <a href="/"><img src="__IMG__/home.png" /></a>
+            </li>
+            {volist name="second_menu" id="vo"}
+            <li>
+                <a data-scroll href='{:url($vo["url"])}'>{$vo.name}</a>
+            </li>
+            {/volist}
+        </ul>
+        <div class="lh-other-share right">
+            <a href="javascript:;"><i class="iconfont icon-fenxiang"></i></a>
+            <ul>
+                <li>
+                    <a href="javascript:;" data-type="weixin" class="lhShare">
+                        <i class="iconfont icon-weixin1"></i>
+                    </a>
+                </li>
+                <li><a href="javascript:;" data-type="qqhy" class="lhShare"><i class="iconfont icon-qq"></i></a>
+                </li>
+                <li><a href="javascript:;" data-type="xinlang" class="lhShare"><i
+                        class="iconfont icon-weibo"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</div>

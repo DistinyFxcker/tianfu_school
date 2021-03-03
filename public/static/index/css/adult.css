@@ -1,0 +1,265 @@
+.lh-introduce-pre {
+    text-align: center;
+    max-width: 978px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #585858;
+    margin: 40px auto 0;
+}
+
+.lh-introduce-item {
+    margin-top: 20px;
+    margin-left: -30px;
+}
+
+.lh-introduce-item li {
+    float: left;
+    width: 33.3%;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+.lh-introduce.kfdx .lh-other-h2 {
+    position: relative;
+}
+
+.lh-introduce.kfdx .lh-other-h2:after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 5px;
+    background: #16A06A;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    margin-left: 0;
+}
+
+.lh-introduce.kfdx pre {
+    margin: 60px 0 40px;
+}
+
+/* way style start*/
+
+.lh-way {
+    background: #3A435C;
+    padding: 50px 0;
+}
+
+.lh-way-item {
+    margin-left: -20px;
+}
+
+.lh-way-item li {
+    float: left;
+    width: 33.3%;
+    padding-left: 20px;
+}
+
+.lh-way-item li a {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.lh-way-item li .icon {
+    width: 98px;
+    height: 98px;
+    margin: auto;
+    position: relative;
+    transition: ease .45s;
+}
+
+.lh-way-item li .icon:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../img/icon4.png) no-repeat left 2px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: ease .45s;
+}
+
+.lh-way-item li:nth-child(2) .icon:before {
+    background-position: -173px 2px;
+}
+
+.lh-way-item li:nth-child(3) .icon:before {
+    background-position: -344px 2px;
+}
+
+.lh-way-item li .text {
+    margin-top: 10px;
+    line-height: 27px;
+    transition: ease .45s;
+}
+
+.lh-way-item li .text h2 {
+    font-size: 18px;
+}
+
+.lh-way-item li .text h3 {
+    font-size: 16px;
+    transition: ease .45s;
+}
+
+.lh-way-item li .text pre {
+    line-height: 24px;
+    margin-top: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transition: ease .45s;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-120px);
+}
+
+.lh-way-item li a:hover {
+    color: #16a06a;
+}
+
+.lh-way-item li a:hover h3 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.lh-way-item li a:hover h2 {
+    color: #16a06a;
+}
+
+.lh-way-item li a:hover .icon {
+    background: #16A06A;
+    border-radius: 50%;
+    border-radius: 50%;
+    transform: translateY(-80px);
+}
+
+.lh-way-item li a:hover .text {
+    transform: translateY(-70px);
+}
+
+.lh-way-item li a:hover .text pre {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(80px);
+    color: #16a06a;
+}
+
+.lh-way-item li a:hover .icon:before {
+    background-position: left -140px;
+    transform: scale(.5);
+}
+
+.lh-way-item li:nth-child(2) a:hover .icon:before {
+    background-position: -173px -140px;
+    transform: scale(.5);
+}
+
+.lh-way-item li:nth-child(3) a:hover .icon:before {
+    background-position: -344px -137px;
+    transform: scale(.5);
+}
+
+.lh-way-item li a:hover .icon:after {
+    content: '';
+    display: block;
+    width: 115px;
+    height: 115px;
+    border: 2px dotted #16A06A;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+/* way style end    */
+
+@media screen and (max-width:980px) {
+    .lh-introduce-item li {
+        width: 100%;
+        margin-top: 10px;
+    }
+    /* way-m style start */
+    .lh-way {
+        padding: 30px 0;
+    }
+    .lh-way-item li {
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+    }
+    .lh-way-item li:first-child {
+        margin-top: 0;
+    }
+    .lh-way-item li .icon {
+        float: left;
+        width: 49px;
+        height: 49px;
+        margin-right: 20px;
+    }
+    .lh-way-item li .icon:before {
+        background-size: 220px 125px;
+    }
+    .lh-way-item li .text {
+        text-align: left;
+    }
+    .lh-way-item li .text h2 {
+        font-size: 16px;
+        color: #17A06B;
+    }
+    .lh-way-item li .text h3 {
+        font-size: 14px;
+    }
+    .lh-way-item li .text pre {
+        visibility: visible;
+        opacity: .8;
+        transform: translateY(0);
+        font-size: 12px;
+        line-height: 22px;
+        position: static;
+        padding-left: 69px;
+        color: #fff !important;
+    }
+    .lh-way-item li:nth-child(2) .icon:before {
+        background-position: -86px 2px !important;
+        transform: none !important;
+    }
+    .lh-way-item li:nth-child(3) .icon:before {
+        background-position: -172px 2px !important;
+        transform: none !important;
+    }
+    .lh-way-item li a:hover .icon {
+        background: none;
+        transform: none;
+        border-radius: 0;
+    }
+    .lh-way-item li a:hover .icon:before {
+        transform: none;
+        background-position: left 2px;
+    }
+    .lh-way-item li a:hover .text {
+        transform: none;
+    }
+    .lh-way-item li a:hover h3 {
+        opacity: .8;
+        visibility: visible;
+        color: #fff;
+        color: #fff !important;
+    }
+    .lh-way-item li a:hover .text pre {
+        transform: none;
+        color: #fff;
+    }
+    .lh-way-item li a:hover .icon:after {
+        display: none;
+    }
+    /* way-m style end */
+}

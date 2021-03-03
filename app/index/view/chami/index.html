@@ -1,0 +1,553 @@
+{include file="public/header"}
+<link rel="stylesheet" type="text/css" href="__CSS__/about.css" />
+
+<div class="lh-main other">
+  <!--ban-->
+  {include file="public/ban"}
+  <div class="lh-position">
+    <!--other nav-->
+    <div class="lh-other-nav-box">
+      <div class="container clearfix">
+        <ul class="lh-other-nav left clearfix">
+          <li>
+            <a href="#"><img src="__IMG__/home.png" /></a>
+          </li>
+          {volist name="second_menu" id="vo"}
+          <li class="m-left-btn">
+            <a data-scroll href="javascript:;" data-id="#{$vo.id}">
+              {$vo.name}
+            </a>
+          </li>
+          {/volist}
+        </ul>
+        <div class="lh-other-share right">
+          <a href="javascript:;"><i class="iconfont icon-fenxiang"></i></a>
+          <ul>
+            <li>
+              <a href="javascript:;" data-type="weixin" class="lhShare"
+                ><i class="iconfont icon-weixin1"></i
+              ></a>
+            </li>
+            <li>
+              <a href="javascript:;" data-type="qqhy" class="lhShare"
+                ><i class="iconfont icon-qq"></i
+              ></a>
+            </li>
+            <li>
+              <a href="javascript:;" data-type="xinlang" class="lhShare"
+                ><i class="iconfont icon-weibo"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--mobile nav-->
+    <div class="topmenu">
+      <div class="swiper-container">
+        <ul class="swiper-wrapper">
+          {volist name="second_menu" id="vo"}
+          <li class="on swiper-slide">
+            <a
+              data-scroll
+              href="javascript:;"
+              class="c-white topmenu-item"
+              data-id="#{$vo.id}"
+            >
+              {$vo.name}
+            </a>
+          </li>
+          {/volist}
+        </ul>
+      </div>
+    </div>
+    <!--about us-->
+    <div class="lh-aboutus padding80" id="97">
+      <div class="container clearfix">
+        <div class="lh-aboutus-l left">
+          <div class="lh-public-h wow fadeInUp clearfix">
+            <h2>{$about_us.name}</h2>
+            <h3 class="zt1">{$about_us.alias}</h3>
+          </div>
+          <h2 class="wow fadeInUp">{$about.introduction_title}</h2>
+          <div class="cont clearfix wow fadeInUp c-overflow-y">
+            {$about.introduction_content}
+          </div>
+          <div class="loadmore-x wow fadeInUp">点击加载全文</div>
+        </div>
+        <div class="lh-aboutus-r right clearfix">
+          <div class="lh-aboutus-zx wow zoomIn left">
+            <a
+              href="javascript:;"
+              data-url="{$config.customer_link}"
+              class="lhLjzx"
+            >
+              <h2>{$aid_info.name}</h2>
+              <pre class="lhSplit zt1">{$aid_info.alias}</pre>
+              <h4><i class="iconfont icon-zixun"></i>立即咨询</h4>
+              <div
+                class="img"
+                style="background-image: url(__IMG__/c2.jpg)"
+              ></div>
+            </a>
+          </div>
+          <ul class="lh-statistical-item about right clearfix lh-power">
+            <li class="wow fadeInUp">
+              <div>
+                <h2 class="zt2">
+                  <b data-to="45237" data-speed="1500" class="timer"> 45237 </b>
+                </h2>
+                <h3>毕业人数</h3>
+              </div>
+            </li>
+            <li class="wow fadeInUp">
+              <div>
+                <h2 class="zt2">
+                  <b data-to="93" data-speed="1500" class="timer"> 93 </b>%
+                </h2>
+                <h3>通过率</h3>
+              </div>
+            </li>
+            <li class="wow fadeInUp">
+              <div>
+                <h2 class="zt2">
+                  <b data-to="227" data-speed="1500" class="timer"> 227 </b>
+                </h2>
+                <h3>专业导师</h3>
+              </div>
+            </li>
+            <li class="wow fadeInUp">
+              <div>
+                <h2 class="zt2">
+                  <b data-to="97" data-speed="1500" class="timer"> 97 </b>%
+                </h2>
+                <h3>专业覆盖</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!--video-->
+    <div
+      class="lh-video lh-video-play-x-p"
+      id="119"
+      style="background-image: url({$video.thumb})"
+    >
+      <div class="lh-video-list-x">
+        <div class="video-list-x">
+          <ul class="video-list">
+            <li
+              class="video-item"
+              data-src="https://video.wenluedu.com/02.%E6%9F%A5%E7%B1%B3%E6%95%99%E8%82%B2%E6%95%99%E5%8A%A1%E9%83%A8%E6%96%B0%E5%B9%B4%E7%A5%9D%E7%A6%8F.mp4"
+              data-imgsrc="__IMG__/videoicon/3.jpg"
+              data-title="查米教育2021新年祝福"
+              data-id="1"
+            >
+              <i class="iconfont icon-bofang1"></i>
+              <img src="__IMG__/videoicon/3.jpg" alt="查米教育2021新年祝福" class="video-img" />
+            </li>
+            <li
+              class="video-item"
+              data-src="https://video.wenluedu.com/05.%E6%9F%A5%E7%B1%B3%E6%95%99%E8%82%B22020%E5%B9%B4%E4%BC%9A%E7%9B%9B%E5%85%B8.mp4"
+              data-imgsrc="__IMG__/videoicon/2.jpg"
+              data-title="查米教育2020年会盛典"
+              data-id="2"
+            >
+              <i class="iconfont icon-bofang1"></i>
+              <img src="__IMG__/videoicon/2.jpg" alt="查米教育2020年会盛典" class="video-img" />
+            </li>
+
+            
+            <li
+              class="video-item"
+              data-src="https://video.wenluedu.com/03.%E6%9F%A5%E7%B1%B3%E6%95%99%E8%82%B2%E6%97%97%E4%B8%8B%E5%A4%A9%E5%BA%9C%E8%8B%B1%E6%89%8D%E8%80%83%E7%82%B9%E8%87%AA%E8%80%83%E7%9C%81%E8%80%83%E8%80%83%E8%AF%95.mp4"
+              data-imgsrc="__IMG__/videoicon/4.jpg"
+              data-title="查米教育旗下天府英才考点自考省考考试"
+              data-id="5"
+            >
+              <i class="iconfont icon-bofang1"></i>
+              <img src="__IMG__/videoicon/4.jpg" alt="查米教育旗下天府英才考点自考省考考试" class="video-img" />
+            </li>
+
+            
+             <li
+              class="video-item"
+              data-src="https://video.wenluedu.com/04.%E6%9F%A5%E7%B1%B3%E6%95%99%E8%82%B2%E4%B8%87%E5%9C%A3%E8%8A%82%E6%B4%BB%E5%8A%A8.mp4"
+              data-imgsrc="__IMG__/videoicon/5.jpg"
+              data-title="查米教育万圣节活动"
+              data-id="3"
+            >
+              <i class="iconfont icon-bofang1"></i>
+              <img src="__IMG__/videoicon/5.jpg" alt="" class="video-img" />
+            </li>
+            
+            <li
+              class="cru-video video-item"
+              data-src="https://video.wenluedu.com/01.%E6%9F%A5%E7%B1%B38%E5%91%A8%E5%B9%B411.16_x264.mp4"
+              data-imgsrc="__IMG__/videoicon/1.jpg"
+              data-title="查米教育八周年"
+              data-id="4"
+            >
+              <i class="iconfont icon-bofang1"></i>
+              <img src="__IMG__/videoicon/1.jpg" alt="查米教育八周年" class="video-img" />
+            </li>
+
+
+            <li
+              class="video-item"
+              data-src="https://video.wenluedu.com/05.%E6%9F%A5%E7%B1%B3%E6%95%99%E8%82%B2%E4%B8%87%E5%9C%A3%E8%8A%82%E6%B4%BE%E5%AF%B9.mp4"
+              data-imgsrc="__IMG__/videoicon/6.jpg"
+              data-title="查米教育万圣节派对"
+              data-id="6"
+            >
+              <i class="iconfont icon-bofang1"></i>
+              <img src="__IMG__/videoicon/6.jpg" alt="查米教育万圣节派对" class="video-img" />
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="video-prev" data-id="1"></div>
+        <div class="video-next" data-id="1"></div>
+      </div>
+      <div class="lh-video-play-x">
+        <div class="cru-video-x">
+          <div
+            class="cru-video-img-x"
+            data-src="https://video.wenluedu.com/02.%E6%9F%A5%E7%B1%B3%E6%95%99%E8%82%B2%E6%95%99%E5%8A%A1%E9%83%A8%E6%96%B0%E5%B9%B4%E7%A5%9D%E7%A6%8F.mp4"
+          >
+            <i class="iconfont icon-bofang1"></i>
+            <img src="__IMG__/videoicon/3.jpg" alt="" class="cru-video-img" />
+            <h4 class="cru-video-title">查米教育2021新年祝福</h4>
+          </div>
+        </div>
+        <video src="" id="video" controls></video>
+      </div>
+    </div>
+    <!-- video mobile -->
+    <div
+      class="lh-video lh-video-play-x-m"
+      id="119"
+      style="background-image: url({$video.thumb})"
+    >
+      <div class="container">
+        <div class="lh-business-h wow fadeInUp">
+          <h2>{$video.name}</h2>
+          <h3 class="zt1">Charming EduPromotional Video</h3>
+        </div>
+        <div class="lh-overflow">
+          <div
+            class="lh-video-banner lh-public-banner wow fadeInUp"
+            data-freeMode="1"
+            data-slidesPerView="4"
+            data-webslidesPerView="1"
+          >
+            <ul class="swiper-wrapper bd lh-honor-item" style="width: 100%">
+              <li class="swiper-slide">
+                <a>
+                  <div
+                    class="video-m-img"
+                    style="background-image: url(__IMG__/videoicon/3.jpg)"
+                    data-src="https://video.wenluedu.com/02.%E6%9F%A5%E7%B1%B3%E6%95%99%E8%82%B2%E6%95%99%E5%8A%A1%E9%83%A8%E6%96%B0%E5%B9%B4%E7%A5%9D%E7%A6%8F.mp4"
+                    data-id="1"
+                  >
+                    <i class="iconfont icon-bofang1"></i>
+                    <video src="" controls class="video-m-item"></video>
+                  </div>
+                  <h3 class="video-m-title">
+                    查米教育2021新年祝福
+                  </h3>
+                </a>
+              </li>
+              <li class="swiper-slide">
+                <a>
+                  <div
+                    class="video-m-img"
+                    style="background-image: url(__IMG__/videoicon/2.jpg)"
+                    data-src="https://video.wenluedu.com/05.%E6%9F%A5%E7%B1%B3%E6%95%99%E8%82%B22020%E5%B9%B4%E4%BC%9A%E7%9B%9B%E5%85%B8.mp4"
+                  >
+                    <i class="iconfont icon-bofang1"></i>
+                    <video src="" controls class="video-m-item"></video>
+                  </div>
+                  <h3 class="video-m-title">
+                    查米教育2020年会盛典
+                  </h3>
+                </a>
+              </li>
+              <li class="swiper-slide">
+                <a>
+                  <div
+                    class="video-m-img"
+                    style="background-image: url(__IMG__/videoicon/4.jpg)"
+                    data-src="https://video.wenluedu.com/03.%E6%9F%A5%E7%B1%B3%E6%95%99%E8%82%B2%E6%97%97%E4%B8%8B%E5%A4%A9%E5%BA%9C%E8%8B%B1%E6%89%8D%E8%80%83%E7%82%B9%E8%87%AA%E8%80%83%E7%9C%81%E8%80%83%E8%80%83%E8%AF%95.mp4"
+                  >
+                    <i class="iconfont icon-bofang1"></i>
+                    <video src="" controls class="video-m-item"></video>
+                  </div>
+                  <h3 class="video-m-title">
+                    查米教育旗下天府英才考点自考省考考试
+                  </h3>
+                </a>
+              </li>
+               <li class="swiper-slide">
+                <a>
+                  <div
+                    class="video-m-img"
+                    style="background-image: url(__IMG__/videoicon/5.jpg)"
+                    data-src="https://video.wenluedu.com/04.%E6%9F%A5%E7%B1%B3%E6%95%99%E8%82%B2%E4%B8%87%E5%9C%A3%E8%8A%82%E6%B4%BB%E5%8A%A8.mp4"
+                    data-imgsrc="__IMG__/videoicon/5.jpg"
+                    data-title="查米教育万圣节活动"
+                  >
+                    <i class="iconfont icon-bofang1"></i>
+                    <video src="" controls class="video-m-item"></video>
+                  </div>
+                  <h3 class="video-m-title">
+                    查米教育万圣节活动
+                  </h3>
+                </a>
+              </li>
+                <li class="swiper-slide">
+                <a>
+                  <div
+                    class="video-m-img"
+                    style="background-image: url(__IMG__/videoicon/1.jpg)"
+                    data-src="https://video.wenluedu.com/01.%E6%9F%A5%E7%B1%B38%E5%91%A8%E5%B9%B411.16_x264.mp4"
+                  >
+                    <i class="iconfont icon-bofang1"></i>
+                    <video src="" controls class="video-m-item"></video>
+                  </div>
+                  <h3 class="video-m-title">
+                    查米教育八周年
+                  </h3>
+                </a>
+              </li>
+              
+               <li class="swiper-slide">
+                <a>
+                  <div
+                    class="video-m-img"
+                    style="background-image: url(__IMG__/videoicon/6.jpg)"
+                   data-src="https://video.wenluedu.com/05.%E6%9F%A5%E7%B1%B3%E6%95%99%E8%82%B2%E4%B8%87%E5%9C%A3%E8%8A%82%E6%B4%BE%E5%AF%B9.mp4"
+                  >
+                    <i class="iconfont icon-bofang1"></i>
+                    <video src="" controls class="video-m-item"></video>
+                  </div>
+                  <h3 class="video-m-title">
+                    查米教育万圣节派对
+                  </h3>
+                </a>
+              </li>
+              
+            </ul>
+            <ul class="lh-honor-hd bannerbd"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- photo -->
+    <div class="lh-honor padding40" id="131">
+      <div class="container">
+        <div class="lh-business-h wow fadeInUp">
+          <h2>{$album.name}</h2>
+          <h3 class="zt1">{$album.alias}</h3>
+        </div>
+        <div class="lh-overflow">
+          <div
+            class="lh-photo-banner lh-public-banner wow fadeInUp"
+            data-delay="2000"
+            data-freeMode="1"
+            data-slidesPerView="4"
+            data-webslidesPerView="2"
+            data-loop="1"
+            data-autoplay="1"
+            style="margin: 70px 0 0 -30px"
+          >
+            <ul class="swiper-wrapper bd lh-honor-item" style="width: 100%">
+              {volist name="album_list" id="vo"}
+              <li class="swiper-slide">
+                <a
+                  href="{:url('index/chami/detaillist',['id'=>$vo.id])}"
+                  data-bigimg="{$vo.thumb}"
+                >
+                  <div
+                    class="img"
+                    style="background-image: url({$vo.thumb})"
+                  ></div>
+                  <h3
+                    style="
+                      line-height: 40px;
+                      text-align: center;
+                      font-size: 12px;
+                    "
+                  >
+                    {$vo.introduction_title}
+                  </h3>
+                </a>
+              </li>
+              {/volist}
+            </ul>
+            <ul class="lh-honor-hd bannerbd"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- honer -->
+
+    <div class="lh-honor padding65" id="122">
+      <div class="container">
+        <div class="lh-business-h wow fadeInUp">
+          <h2>{$honor.name}</h2>
+          <h3 class="zt1">{$honor.alias}</h3>
+        </div>
+        <div class="lh-overflow">
+          <div
+            class="lh-honor-banner lh-public-banner wow fadeInUp"
+            data-slidesPerView="4"
+            data-webslidesPerView="2"
+            data-slidesPerColumn="2"
+            data-delay="3500"
+            data-autoplay="1"
+          >
+            <ul class="swiper-wrapper bd lh-honor-item lh-layerImg">
+              {volist name="honor_list['thumbs']" id="vo"}
+              <li class="swiper-slide">
+                <a href="javascript:;" data-bigimg="{$vo}">
+                  <div class="img" style="background-image: url({$vo})"></div>
+                </a>
+              </li>
+              {/volist}
+            </ul>
+            <ul class="lh-honor-hd bannerbd"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--culture-->
+    <div
+      class="lh-culture lh-overflow"
+      id="125"
+      style="background-image: url({$culture.thumb})"
+      id="#5"
+    >
+      <div class="container">
+        <div class="lh-business-h wow fadeInUp">
+          <h2>{$culture.name}</h2>
+          <h3 class="zt1">{$culture.alias}</h3>
+        </div>
+
+        <h2 class="lh-culture-h2 wow fadeInUp">
+          {$culture_list[0]['introduction_title']}
+        </h2>
+
+        <pre class="lh-culture-pre wow fadeInUp">
+{$culture_list[0]['ccont']}</pre
+        >
+        <ul class="lh-culture-item clearfix">
+          {volist name="culture_list" id="vo" offset="1" length='4'}
+          <li class="wow fadeInUp">
+            <a href="javascript:;">
+              <i class="iconfont icon-tuandui"></i>
+              <h2>{$vo.introduction_title}</h2>
+              <pre>{$vo.ccont}</pre>
+            </a>
+          </li>
+          {/volist}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+{include file="public/footer"}
+<script type="text/javascript">
+  $(".lh-other-nav ").on("click", "li a", function () {
+    var that = $(this);
+    var id = $(this).attr("data-id");
+    switch (id) {
+      case "#97":
+        $("html,body").animate({ scrollTop: 540 }, 800);
+        break;
+      default:
+        $("html,body").animate({ scrollTop: $(id).offset().top - 170 }, 800);
+    }
+  });
+  $(".topmenu-item").on("click", function () {
+    var that = $(this);
+    var id = $(this).attr("data-id");
+    $("html,body").animate({ scrollTop: $(id).offset().top - 85 }, 800);
+  });
+</script>
+<script>
+  // 视频播放
+  var windowWidth = $(window).width();
+  if (windowWidth > 980) {
+    // 子元素个数
+    var listLength = $(".video-list").children().length;
+    //总页码
+    var total = Math.ceil(listLength / 4);
+    $(".video-item").on("click", function () {
+      $(this).addClass("cru-video").siblings().removeClass("cru-video");
+      var videosrc = $(this).data("src");
+      console.log(videosrc)
+      var videoimg = $(this).data("imgsrc");
+      var videotitle = $(this).data("title");
+      $(".cru-video-img-x").attr("data-src", videosrc);
+      $(".cru-video-img").attr("src", videoimg);
+      $(".cru-video-title").text(videotitle);
+      $(".cru-video-img-x").show();
+      $("#video").css({ "z-index": "-1" }).trigger("pause");
+    });
+
+    $(".cru-video-img-x").on("click", "i", function () {
+      var videosrc = $(".cru-video-img-x").attr("data-src");
+      console.log(videosrc);
+      $("#video").attr("src", videosrc);
+      $(".cru-video-img-x").hide();
+      $("#video").css({ "z-index": "1" }).trigger("play");
+    });
+
+    // 点击向上按钮
+    $(".video-prev").on("click", function () {
+      var crupage = $(".video-prev").attr("data-id");
+      if (crupage == 1) {
+        alert("没有更多视频");
+        return;
+      } else {
+        var bottom = $(".video-list").css("bottom");
+        var index = bottom.indexOf("px");
+        bottom = bottom.slice(0, index);
+        $(".video-list").css({
+          bottom: bottom - 620,
+        });
+        crupage = crupage - 1;
+        $(".video-prev").attr("data-id", crupage);
+        $(".video-next").attr("data-id", crupage);
+      }
+    });
+    // 向下按钮
+    $(".video-next").on("click", function () {
+      var crupage = parseInt($(".video-next").attr("data-id"));
+      if (crupage == total) {
+        alert("没有更多视频");
+        return;
+      } else {
+        $(".video-list").css({
+          bottom: crupage * 620,
+        });
+        crupage = crupage + 1;
+        $(".video-next").attr("data-id", crupage);
+        $(".video-prev").attr("data-id", crupage);
+      }
+    });
+  } else {
+    $('.video-m-img').on('click',function(){
+      var videoSrc=$(this).data('src');
+      var videoDom= $(this).find('video');
+      $('.lh-video-play-x-m video').trigger('pause').css({ "z-index": "-1" });
+      videoDom.attr('src',videoSrc).css({ "z-index": "1" }).trigger('play');
+    })
+  }
+</script>

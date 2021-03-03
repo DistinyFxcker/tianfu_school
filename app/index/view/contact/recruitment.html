@@ -1,0 +1,196 @@
+{include file="public/header"}
+<style>
+    .contact-us {
+    	width: 80%;
+        margin-top: 20px;
+    }
+    
+    .lh-recruitment-pre{
+    	border-bottom: 1px solid #E5E5E5;
+    	padding-bottom: 20px;
+    }
+    
+    .lh-recruitment-item{
+    	margin-top:25px;
+    }
+
+    .contact-us ul li {
+        float: left;
+        line-height: 86px;
+        margin-left: 15px;
+        font-size: 15px;
+    }
+
+    .contact-us ul li i {
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-radius: 3px;
+        border: 1px solid #9F9F9F;
+        color: #9F9F9F;
+        margin-right: 10px;
+        float: left;
+        line-height: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 33px;
+    }
+
+    .contact-us ul :nth-child(2) {
+        margin-left: 75px;
+    }
+
+    .lh-recruitment-qr {
+        width: 100px;
+        height: 100px;
+    }
+
+    .lh-recruitment-qr-x h2 {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .lh-recruitment-qr {}
+
+    @media screen and (max-width:980px) {
+        .contact-us {
+        	width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+            padding-top: 20px;
+        }
+        .contact-us ul li i{
+            margin-top: 9px;
+        }
+
+        .contact-us ul li {
+            margin-left: 0;
+            line-height: 40px;
+            float: none;
+            overflow: hidden;
+            margin: 0;
+        }
+
+        .contact-us ul :nth-child(2) {
+            margin-left: 0;
+        }
+    }
+</style>
+
+<!--main-->
+<div class="lh-main other">
+    <!--ban-->
+    {include file="public/ban"}
+    <div class="lh-position">
+        <!--other nav-->
+        {include file="public/second_menu"}
+        <!--recruitment-->
+        <div class="lh-recruitment padding75">
+            <div class="container">
+                <h2 class="lh-recruitment-h2">{$recruitment.name}</h2>
+                <pre class="lh-recruitment-pre">{$recruitment.description}</pre>
+                <div class="contact-us clearfix">
+                    <ul class="clearfix left">
+                        <li>
+                            <i
+                                class="iconfont icon-dianhua"></i>联系电话：&nbsp;&nbsp;{$config.contact_information['recruitment_phone']}
+                        </li>
+                         <li>
+                            <i class="iconfont icon-yy"></i>联系邮箱：&nbsp;&nbsp;chami@chamiedu.com
+                        </li>
+                    </ul>
+                    <div class="right lh-recruitment-qr-x ">
+                        <div class="lh-recruitment-qr">
+                            <img src="__IMG__/recruitment.png" alt="查米教育">
+                        </div>
+                        <h2>扫码咨询</h2>
+                    </div>
+                </div>
+                <ul class="lh-recruitment-item" id="erlo_lj_data">
+		
+                </ul>
+                <div class="lh-loading erlo_lj_more">加载更多职位</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer-->
+{include file="public/footer"}
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.erlo_lj_more').click()
+    })
+
+    $('.erlo_lj_more').click(function () {
+        var obj = $(this);
+        var data = { page: obj.attr('page'), };
+        if (!data.page) data.page = 1;
+        var lastpage = obj.attr('lastpage');
+        if (!lastpage) lastpage = 1;
+        if (obj.hasClass('lj')) return false;
+        if (data.page > lastpage) return;
+        $.ajax({
+            url: "{url('index/contact/recruitment')}",
+            type: 'post',
+            data: data,
+            dataType: "json",
+            contentType: "application/x-www-form-urlencoded; charset=utf-8",
+            beforeSend: function () {
+                obj.addClass('lj');
+            },
+            error: function () {
+                obj.removeClass('lj');
+            },
+            success: function (res) {
+                lastpage = res.last_page;
+                var dataArr = res.data;
+                obj.hide();
+                if (dataArr) {
+                    var html = ''
+                    dataArr.forEach(function (item) {
+                        html += "<li>" +
+		                            " <div class='lh-recruitment-h clearfix lh-flex'>" +
+			                            " <span class='num'>" +
+			                            	item.alias+"</span>"+
+			                            "<span class='title'>" +
+			                            	item.position_name+
+			                            "</span><i></i>" +
+		                            "</div>" +
+		                            "<div class='lh-recruitment-main clearfix'>"+
+		                            	item.ccont+
+		                            "</div>"+
+	                          "</li>"
+                    })
+                    $('#erlo_lj_data').append(html);
+                    data.page++;
+                    if (obj.attr('fun')) {
+                        var fun = obj.attr('fun');
+                        eval(fun + "($('#erlo_lj_data .erlo_li'))");
+                    }
+                    obj.removeClass('lj').attr('page', data.page).attr('lastpage', lastpage);
+                } else {
+                    obj.text('没有了')
+                }
+            }
+        })
+    })
+
+    $(window).bind('scroll', function () {
+        if ($('.erlo_lj_more').size() > 0) {
+            var st = $('.erlo_lj_more').offset().top;
+            if ($('#erlo_lj_data .erlo_li').size() > 0) st = $('#erlo_lj_data .erlo_li').last().offset().top;
+            if ($(window).scrollTop() > st - $(window).height() / 2 - $(window).height() / 3) {
+                $('.erlo_lj_more').click();
+            }
+        }
+    })
+
+</script>
+
+</body>
+
+</html>

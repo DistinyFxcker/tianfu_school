@@ -1,0 +1,408 @@
+    /* 报考咨询相关样式 */
+
+    .contact-info {
+        border-width: 0px;
+        margin-top: 10px;
+    }
+    
+     .lh-message{
+        background: #fff;
+        position: relative;
+    }
+
+    .lh-message h2 {
+        font-size: 35px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .lh-message h3 {
+        opacity: .8;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .lh-message h3 span {
+        color: #16a06a;
+    }
+
+    .lh-message-input {
+        margin-top: 35px;
+        margin-left: -30px;
+    }
+
+    .lh-message-input li {
+        padding-left: 30px;
+        margin-top: 30px;
+        float: left;
+        width: 50%;
+    }
+
+    .lh-message-input li label {
+        transition: ease .45s;
+    }
+
+    .lh-message-input li span {
+        color: #16A06A;
+        transition: ease .45s;
+    }
+
+    .lh-message-input li>div {
+        height: 65px;
+        line-height: 65px;
+        background: #F6F6F6;
+        border: 1px solid #EEE;
+        position: relative;
+        padding: 0 30px;
+        font-size: 15px;
+        transition: ease .45s;
+    }
+
+    .lh-message-input li.on>div {
+        background: #16A06A;
+        border-color: #16A06A;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    }
+
+    .lh-message-input li.on label, .lh-message-input li.on span {
+        color: #fff;
+    }
+
+    .lh-message-input li.on input::-webkit-input-placeholder {
+        color: #A7D3BE;
+    }
+
+    .lh-message-input li.on input:-moz-placeholder {
+        color: #A7D3BE;
+    }
+
+    .lh-message-input li.on input::-moz-placeholder {
+        color: #A7D3BE;
+    }
+
+    .lh-message-input li.on input:-ms-input-placeholder {
+        color: #A7D3BE;
+    }
+
+    .lh-message-input li.on input {
+        color: #fff;
+    }
+
+    .lh-message-input li input {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 0 30px 0 110px;
+        border: none;
+        /* color: #fff; */
+        font-size: 15px;
+    }
+
+    .lh-message-input li:last-child {
+        width: 100%;
+    }
+
+    .lh-message-input li a {
+        display: block;
+        width: 144px;
+        height: 46px;
+        text-align: center;
+        line-height: 46px;
+        background: #16A06A;
+        color: #fff;
+        border-radius: 4px;
+        margin: 30px auto 0;
+    }
+
+    .lh-message-input li a:hover {
+        background: #21C181;
+    }
+
+    .lh-message-input li:nth-child(2n) {
+        animation-delay: .1s;
+    }
+
+    .sex-x {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .lh-message-input li input.sex {
+        width: 20px;
+        height: 20px;
+        position: static;
+        padding: 0;
+    }
+
+    .sex-input-x {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .sex {
+        margin-left: 10px;
+    }
+
+    .lh-consultation {
+        display: flex;
+        flex-direction: row;
+        padding-top: 60px;
+    }
+
+    .c-w-50 {
+        width: 50%;
+    }
+
+    .lh-consultation .lh-flex {
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: row;
+        -webkit-flex-direction: column;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+    }
+
+    .lh-consultation .lh-flex li {
+        width: 100%;
+    }
+
+    .lh-consultation .lh-message-input {
+        margin-top: 25px;
+    }
+
+    .lh-consultation .lh-message-input li {
+        margin-top: 15px;
+    }
+
+    .lh-message h2 {
+        font-size: 25px;
+    }
+
+    .lh-consultation .lh-message-input li>div {
+        height: 50px;
+        line-height: 50px;
+        background: #F6F6F6;
+        border: 1px solid #EEE;
+        position: relative;
+        padding: 0 30px;
+        font-size: 15px;
+        transition: ease .45s;
+    }
+
+    .lh-consultation .select {
+        width: 160px;
+        position: relative;
+        line-height: 30px;
+        height: 30px;
+        margin: .5em;
+        border-radius: 5px;
+        border-color: #ccc;
+        display: inline-block;
+        border-width: 0px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .c-m-35 {
+        margin-top: 35px;
+        margin-left: -30px;
+    }
+
+    .c-w {
+        width: 400px;
+    }
+
+    .c-m-auto {
+        margin: 0 auto;
+    }
+
+    .contact-info {
+        border-left: 1px solid #e5e5e5;
+    }
+
+    .lh-consultation .lh-message-input li.on>div {
+        background: #16A06A;
+        border-color: #16A06A;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    }
+
+    .lh-consultation h5 {
+        text-align: center;
+    }
+
+    .qr-code {
+        width: 300px;
+        margin: 30px auto 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .qr-layout {
+        width: 140px;
+    }
+
+    .concat-x {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .concat-x h3 {
+        color: #16A06A;
+        font-size: 18px;
+    }
+
+    .concat-c-li {
+        line-height: 30px;
+        background-color: #F6F6F6;
+        margin-top: 10px;
+        border-radius: 1px;
+        padding: 0 5px;
+    }
+
+    .hot-contact {
+        width: 200px;
+        margin: 0 auto 10px;
+        border: 1px solid #f6f6f6;
+        text-align: center;
+    }
+
+    .hot-contact h4 {
+        color: #16A06A;
+        padding-bottom: 10px;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    .lh-contact-a h2 {
+        font-size: 20px;
+        line-height: 48px;
+    }
+
+    .lh-contact-a h3 {
+        font-size: 15px;
+        color: #878787;
+        line-height: 24px;
+    }
+
+    .lh-contact-a h4 {
+        font-size: 24px;
+        color: #16a06a;
+        font-weight: bold;
+    }
+
+    .lh-contact-b {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid #E5E5E5;
+    }
+
+    .lh-contact-b ul li {
+        float: left;
+        line-height: 86px;
+        margin-left: 75px;
+        font-size: 15px;
+    }
+
+    .lh-contact-b ul li:first-child {
+        margin-left: 0;
+    }
+
+    .lh-contact-b ul li i {
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-radius: 3px;
+        border: 1px solid #9F9F9F;
+        color: #9F9F9F;
+        margin-right: 10px;
+        float: left;
+        line-height: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 33px;
+    }
+
+    .lh-contact-b .right {
+        text-align: center;
+        width: 100px;
+    }
+
+    .lh-map {
+        height: 60vh;
+    }
+
+    @media screen and (max-width:980px) {
+        .lh-message h2 {
+            font-size: 18px;
+        }
+        .lh-message-input {
+            margin-left: -10px;
+        }
+        .lh-message-input li {
+            padding-left: 10px;
+            margin-top: 10px;
+            width: 100%;
+        }
+        .lh-consultation {
+            flex-direction: column;
+        }
+        .c-w {
+            width: 100%;
+        }
+        .c-w-50 {
+            width: 100%;
+        }
+        .lh-contact-a h2 {
+            float: none;
+            font-size: 16px;
+        }
+        .lh-contact-a .right {
+            float: none;
+        }
+        .lh-contact-b {
+            margin-top: 30px;
+            padding-top: 20px;
+        }
+        .lh-contact-b ul {
+            float: none;
+        }
+        .lh-contact-b ul li {
+            line-height: 40px;
+            float: none;
+            overflow: hidden;
+            margin: 0;
+        }
+        .lh-contact-b ul li i {
+            margin-top: 9px;
+        }
+        .lh-contact-b .right {
+            display: none;
+        }
+        .lh-map {
+            height: 240px;
+        }
+        .contact-info {
+            border-width: 0px;
+            margin-top: 10px;
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        .lh-consultation .select {
+            width: 140px;
+        }
+    }

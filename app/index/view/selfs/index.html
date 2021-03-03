@@ -1,0 +1,99 @@
+{include file="public/header"}
+<link rel="stylesheet" type="text/css" href="__CSS__/self.css" />
+{include file="public/ban"}
+<div class="lh-main other">
+    <div class="lh-position">
+        <!--介绍-->
+        <div class="lh-zx padding75" id="#4">
+            <div class="container clearfix">
+                <div class="lh-zx-r right">
+                    <div class="lh-zx-a">
+                        <h2>统考时间</h2>
+                        <h3>Examination time</h3>
+                        <ul class="lh-zx-time lh-flex clearfix">
+                            <li><span></span>
+                                四月
+                            </li>
+                            <li><span></span>
+                                十月
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="lh-zx-a">
+                        <h2>省考时间</h2>
+                        <h3>Save time for exams</h3>
+                        <ul class="lh-zx-time lh-flex clearfix">
+                            <li><span></span>
+                                一月
+                            </li>
+                            <li><span></span>
+                                七月
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lh-introduce-r left">
+                    <h2 class="lh-other-h2 wow fadeInUp">
+                        {$introductionexams.introduction_title}
+                    </h2>
+                    <div class="c-overflow-y">
+                        <pre class="wow fadeInUp">{$introductionexams.introduction_content}</pre>
+                        <h3 class="wow fadeInUp">
+
+                        </h3>
+                        <div class="cont clearfix wow fadeInUp">
+                            <ul>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="loadmore-x wow fadeInUp">点击加载全文</div>
+                    <a href="javascript:;"
+                        data-url="{$config.customer_link}"
+                        class="lhLjzx wow fadeInUp">立即咨询</a>
+                </div>
+            </div>
+        </div>
+        <!-- major -->
+        {include file="public/major"}
+
+        <!-- 注意事项 -->
+        <div class="lh-attention padding65" id="#123">
+            <div class="container">
+                <h2 class="lh-other-h2 wow fadeInUp">
+                    注意事项
+                </h2>
+                <ul class="lh-attention-item lh-flex clearfix">
+                    {volist name="precautions" id="vo"}
+                    <li class="wow fadeInUp">
+                        <a href="javascript:;">
+                            <div class="top">
+                                <h3>
+                                    {$vo.introduction_title}
+                                </h3>
+                            </div>
+                            <div class="center">
+                                <div class="img" style="background-image:url({$vo.thumb});"></div>
+                                <pre class="text">{$vo.ccont}</pre>
+                            </div>
+                            <div class="bottom lhLjzx" ><i class="iconfont icon-iconfontgengduo"></i>免费咨询</div>
+                        </a>
+                    </li>
+                    {/volist}
+                </ul>
+            </div>
+        </div>
+
+        {include file="public/process"}
+        <!--学历提升的作用-->
+        {include file="public/role"}
+        <!--题库-->
+        {include file="public/bank"}
+        <!-- 证书展示 -->
+        {include file="public/certificate"}
+        <!-- 学生风采 -->
+        {include file="public/student"}
+        <!-- advantages -->
+        {include file="public/advantages"}
+    </div>
+</div>
+{include file="public/footer"}

@@ -1,0 +1,31 @@
+<div class="lh-advantages padding90">
+    <div class="container">
+        <div class="lh-business-h wow fadeInUp">
+            <h2>我们的优势</h2>
+            <h3 class="zt1">Our Advantages</h3>
+        </div>
+        <ul class="lh-advantages-item lh-flex clearfix">
+            {volist name="chami_advantage" id="vo"}
+            <li class="wow fadeInUp  flip-container">
+                <a href="javascript:;" data-url="{$config.customer_link}"
+                    class="lhLjzx front">
+                    <div class="icon"></div>
+                    <div class="text">
+                        <h2>
+                            {$vo.introduction_title}
+                        </h2>
+                        <pre class="c-elipsis-3">{$vo.ccont}</pre>
+                        <h3>立即咨询</h3>
+                    </div>
+                </a>
+                <a href="javascript:;" data-url="{$config.customer_link}" class="lhLjzx back ">
+                    <div class="text">
+                        <pre>{$vo.ccont}</pre>
+                        <h3>立即咨询</h3>
+                    </div>
+                </a>
+            </li>
+            {/volist}
+        </ul>
+    </div>
+</div>

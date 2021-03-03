@@ -1,0 +1,320 @@
+.lh-zx .lh-introduce-r {
+    max-width: 865px;
+}
+
+.lh-introduce-r {
+    max-width: 580px;
+}
+
+.lh-introduce-r h2 {
+    text-align: left;
+}
+
+.lh-introduce-r h2:after {
+    display: none;
+}
+
+.lh-introduce-r pre {
+    text-align: left;
+    line-height: 30px;
+    color: #4a4a4a;
+    margin-top: 20px;
+}
+
+.lh-introduce-r h3 {
+    font-weight: bold;
+    line-height: 30px;
+    color: #4a4a4a;
+    margin: 20px 0;
+}
+
+.lh-introduce-r .cont {
+    line-height: 28px;
+    color: #5e5e5e;
+}
+
+.lh-introduce-r .cont ul li {
+    position: relative;
+    padding-left: 20px;
+}
+
+.lh-introduce-r .cont ul li:before, .lh-introduce-r .cont ul li:after {
+    content: '';
+    display: block;
+    width: 9px;
+    height: 9px;
+    border: 1px solid #16A06A;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -5px;
+}
+
+.lh-introduce-r .cont ul li:after {
+    width: 5px;
+    height: 5px;
+    left: 2px;
+    margin-top: -3px;
+}
+
+.lh-introduce-r a {
+    display: block;
+    width: 128px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 30px;
+    background: #16A06A;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.lh-introduce-r a:hover {
+    background: #127E55;
+}
+
+
+
+.lh-zx-r {
+    width: 283px;
+    height: 354px;
+    background: #16A06A;
+    border-radius: 4px;
+    position: relative;
+    padding-top: 25px;
+    box-shadow: 0 0 20px rgba(22, 160, 106, .2);
+}
+
+.lh-zx-r:before {
+    content: '';
+    display: block;
+    width: 14px;
+    height: 22px;
+    border-radius: 30px;
+    background: #16A06A;
+    border: 3px solid #EDEFF0;
+    position: absolute;
+    left: 65px;
+    top: -8px;
+}
+
+.lh-zx-r:after {
+    content: '';
+    display: block;
+    width: 14px;
+    height: 22px;
+    border-radius: 30px;
+    background: #16A06A;
+    border: 3px solid #EDEFF0;
+    position: absolute;
+    right: 65px;
+    top: -8px;
+}
+
+.lh-zx-a {
+    border-top: 1px solid #45B388;
+    padding: 26px;
+    color: #fff;
+}
+
+.lh-zx-a h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.lh-zx-a h3 {
+    opacity: .2;
+}
+
+.lh-zx-time {
+    margin-top: 23px;
+    height: 47px;
+    background: #F1A12C;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 47px;
+    border-radius: 4px;
+}
+
+.lh-zx-time li {
+    float: left;
+    width: 50%;
+}
+
+.lh-zx-time li span {
+    width: 14px;
+    height: 14px;
+    border: 2px solid #fff;
+    display: block;
+    float: left;
+    border-radius: 50%;
+    margin: 16px 10px 0 20px;
+}
+
+.lh-zx-time li:first-child span {
+    border: 4px solid #fff;
+}
+
+.lh-zx-a:last-child .lh-zx-time {
+    background: #fff;
+    color: #16A06A;
+}
+
+.lh-zx-a:last-child .lh-zx-time span {
+    border-color: #16A06A;
+}
+
+/*attention style start*/
+
+.lh-attention-item {
+    margin-top: 70px;
+    margin-left: -36px;
+}
+
+.lh-attention-item li {
+    padding-left: 36px;
+    float: left;
+    width: 33.3%;
+}
+
+.lh-attention-item li a {
+    display: block;
+    border-top: 1px solid #E5E5E5;
+    padding: 25px 0;
+    height: 473px;
+}
+
+.lh-attention-item li .top, .lh-attention-item li .center, .lh-attention-item li .bottom {
+    transition: ease .45s;
+}
+
+.lh-attention-item li .top h2 {
+    font-size: 20px;
+    font-family: "Futura Bold BT";
+    transition: ease .45s;
+}
+
+.lh-attention-item li .top h3 {
+    font-size: 20px;
+    font-weight: bold;
+    transition: ease .45s;
+}
+
+.lh-attention-item li .center {
+    padding: 25px 0;
+    position: relative;
+    height: 320px;
+    overflow: hidden;
+}
+
+.lh-attention-item li .center .img {
+    height: 225px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    transition: ease .45s;
+    transform-origin: center top;
+}
+
+.lh-attention-item li .center .text {
+    line-height: 28px;
+    color: #686868;
+    height: 56px;
+    overflow: hidden;
+    transition: ease .45s;
+}
+
+.lh-attention-item li .bottom {
+    color: #16A06A;
+    transition: ease .45s;
+    margin-top: 25px;
+}
+
+.lh-attention-item li .bottom i {
+    float: left;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.lh-attention-item li a:hover {
+    background: #16A06A;
+    border-color: #16A06A;
+    box-shadow: 0 0 20px rgba(22, 160, 106, .2);
+}
+
+.lh-attention-item li a:hover .top {
+    padding: 0 26px;
+}
+
+.lh-attention-item li a:hover .bottom {
+    padding: 0 26px 0;
+    margin-top: 15px;
+}
+
+.lh-attention-item li a:hover .center {
+    padding: 25px 26px;
+    border-top: 1px solid #7EC3A8;
+    border-bottom: 1px solid #7EC3A8;
+    margin-top: 20px;
+}
+
+.lh-attention-item li a:hover .top h2, .lh-attention-item li a:hover .top h3 {
+    color: #fff;
+}
+
+.lh-attention-item li a:hover .bottom {
+    color: #fff;
+}
+
+.lh-attention-item li a:hover .img {
+    opacity: 0;
+}
+
+.lh-attention-item li a:hover .text {
+    color: #fff;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 25px 26px;
+}
+
+/*attention style end*/
+
+.lh-attention-item li:nth-child(2n), .lh-attention-item li:nth-child(3n) {
+    animation-delay: .1s;
+}
+
+
+
+
+
+@media screen and (max-width:980px) {
+    .lh-zx-r {
+        float: none;
+        width: 100%;
+    }
+    .lh-introduce-r h2 {
+        font-size: 20px;
+    }
+    .lh-introduce-r {
+        float: none;
+        margin-top: 30px;
+    }
+    .lh-attention-item {
+        margin: 60px 0 0 -10px;
+    }
+    .lh-attention-item li {
+        padding-left: 10px;
+        width: 100%;
+    }
+    .lh-attention-item li .top h3 {
+        font-size: 16px;
+    }
+
+  
+
+}

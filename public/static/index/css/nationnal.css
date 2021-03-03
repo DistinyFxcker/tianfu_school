@@ -1,0 +1,256 @@
+.lh-introduce-r {
+    max-width: 580px;
+}
+
+.lh-introduce-r h2 {
+    text-align: left;
+}
+
+.lh-introduce-r h2:after {
+    display: none;
+}
+
+.lh-introduce-r pre {
+    text-align: left;
+    line-height: 30px;
+    color: #4a4a4a;
+    margin-top: 20px;
+}
+
+.lh-introduce-r h3 {
+    font-weight: bold;
+    line-height: 30px;
+    color: #4a4a4a;
+    margin: 20px 0;
+}
+
+.lh-introduce-r .cont {
+    line-height: 28px;
+    color: #5e5e5e;
+}
+
+.lh-introduce-r .cont ul li {
+    position: relative;
+    padding-left: 20px;
+}
+
+.lh-introduce-r .cont ul li:before, .lh-introduce-r .cont ul li:after {
+    content: '';
+    display: block;
+    width: 9px;
+    height: 9px;
+    border: 1px solid #16A06A;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -5px;
+}
+
+.lh-introduce-r .cont ul li:after {
+    width: 5px;
+    height: 5px;
+    left: 2px;
+    margin-top: -3px;
+}
+
+.lh-introduce-r a {
+    display: block;
+    width: 128px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 30px;
+    background: #16A06A;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.lh-introduce-r a:hover {
+    background: #127E55;
+}
+
+.lh-about-img.kfdx {
+    width: 487px;
+    height: 320px;
+}
+
+.lh-about-img .bd li a .img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lh-characteristics {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.lh-characteristics-item {
+    margin-top: 60px;
+}
+
+.lh-characteristics-item li {
+    padding: 40px;
+    border-top: 1px solid #C6CEC9;
+    font-size: 16px;
+    overflow: hidden;
+    transition: ease .45s;
+    line-height: 24px;
+    background: rgba(255, 255, 255, .9);
+}
+
+.lh-characteristics-item li:first-child {
+    border-top: none;
+}
+
+.lh-characteristics-item li:hover {
+    color: #16a06a;
+}
+
+.lh-characteristics-item li span {
+    float: left;
+    width: 20%;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'zt1';
+}
+
+.lh-characteristics-item li h2 {
+    width: 80%;
+    float: left;
+}
+
+.lh-conditions-item {
+    margin-top: 75px;
+    margin-left: -50px;
+}
+
+.lh-conditions-item>li {
+    float: left;
+    width: 50%;
+    padding-left: 50px;
+}
+
+.lh-conditions-item>li>div {
+    background: #F5F5F5;
+    height: 100%;
+}
+
+.lh-conditions-item>li .title {
+    height: 158px;
+    padding: 40px 45px;
+    background: #16A06A;
+    position: relative;
+    color: #fff;
+}
+
+.lh-conditions-item>li .title h2 {
+    font-size: 28px;
+}
+
+.lh-conditions-item>li .title h3 {
+    opacity: .2;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.lh-conditions-item>li .title .img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.lh-conditions-item>li .cont {
+    padding: 23px;
+}
+
+.lh-conditions-item>li .cont li {
+    position: relative;
+    font-size: 16px;
+    line-height: 28px;
+    color: #242424;
+    padding-left: 45px;
+    margin-bottom: 27px;
+}
+
+.lh-conditions-item>li .cont li span {
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    font-size: 12px;
+}
+
+.lh-conditions-item>li .cont li span:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #16A06A;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    margin: 4px 0 0 -4px;
+}
+
+.lh-conditions-item>li:last-child .title {
+    background: #3A435C;
+}
+
+.lh-conditions-item>li:last-child .cont li span:before {
+    background: #1C8BD5;
+}
+
+.lh-conditions-item>li:nth-child(2) {
+    animation-delay: .1s;
+}
+
+@media screen and (max-width:980px) {
+    .lh-introduce-r {
+        float: none;
+        margin-top: 30px;
+    }
+    .lh-introduce.kfdx .lh-other-h2:after {
+        bottom: -15px;
+    }
+    .lh-introduce.kfdx pre {
+        margin: 30px 0;
+    }
+    .lh-about-img {
+        float: none;
+    }
+    .lh-about-img.kfdx {
+        margin: 0;
+        width: 100%;
+        height: 260px;
+    }
+    .lh-characteristics-item li {
+        padding: 20px;
+    }
+    .lh-conditions-item>li {
+        width: 100%;
+    }
+    .lh-conditions-item>li .title {
+        height: auto;
+        padding: 20px;
+    }
+    .lh-conditions-item>li .title .img {
+        width: 100px;
+    }
+    .lh-conditions-item>li .title h2 {
+        font-size: 20px;
+    }
+    .lh-conditions-item>li .cont li {
+        font-size: 14px;
+        line-height: 26px;
+    }
+}

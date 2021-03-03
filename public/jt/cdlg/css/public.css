@@ -1,0 +1,137 @@
+body, button, input, select, textarea {
+    font-family: "Microsoft Yahei", F "微软雅黑", arial, "Hiragino Sans GB", "宋体", Tahoma, Arial, Helvetica, STHeiti;
+    font-size: 14px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #222222;
+    font-size: inherit;
+}
+
+img {
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+}
+
+p{
+    line-height: 30px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.container {
+    width: 1165px;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clr:after {
+    display: block;
+    content: "clear";
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.c-red {
+    color: rgb(214, 25, 25);
+}
+
+.c-blue {
+    color: #1b92f7;
+}
+
+.m {
+    margin: 0 auto;
+}
+
+.m-990 {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.m-1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.m{
+    margin: 0 auto;
+}
+
+.b-s {
+    box-sizing: border-box;
+}
+
+.c-p {
+    cursor: pointer;
+}
+
+.f-b{
+    font-weight: bold;
+}
+.t-a{
+    text-align: center;
+}
+/*浏览器滚动条*/
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-button:vertical {
+    display: none
+}
+
+::-webkit-scrollbar-track:vertical {
+    background-color: black
+}
+
+::-webkit-scrollbar-track-piece {
+    background: #E3E3E3
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    background-color: #555;
+    border-radius: 30px
+}
+
+::-webkit-scrollbar-thumb:vertical:hover {
+    background-color: #3B3B3B
+}
+
+::-webkit-scrollbar-corner:vertical {
+    background-color: #535353
+}
+
+::-webkit-scrollbar-resizer:vertical {
+    background-color: #FF6E00
+}
+
+/*浏览器滚动条end*/

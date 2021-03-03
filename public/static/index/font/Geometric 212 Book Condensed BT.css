@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Geometric 212 Book Condensed BT";
+  src: url("Geometric 212 Book Condensed BT.woff2") format("woff2"),
+       url("Geometric 212 Book Condensed BT.woff") format("woff"),
+       url("Geometric 212 Book Condensed BT.ttf") format("truetype"),
+       url("Geometric 212 Book Condensed BT.eot") format("embedded-opentype"),
+       url("Geometric 212 Book Condensed BT.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

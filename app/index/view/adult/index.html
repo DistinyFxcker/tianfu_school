@@ -1,0 +1,65 @@
+{include file="public/header"}
+<link rel="stylesheet" type="text/css" href="__CSS__/adult.css" />
+{include file="public/ban"}
+<div class="lh-main other">
+    <div class="lh-position">
+        <!--介绍-->
+        <div class="lh-introduce lh-overflow padding75" id="#9">
+            <div class="container">
+                <h2 class="lh-other-h2 wow fadeInUp">
+                    {$gaokao.introduction_title}
+                </h2>
+                <pre
+                        class="lh-introduce-pre wow fadeInUp c-overflow-y">{$gaokao.ccont}</pre>
+                <div class="loadmore-x wow fadeInUp">点击加载全文</div>
+                <ul class="lh-introduce-item clearfix lh-flex lh-overflow-y">
+                    {volist name="gaokao.thumbs" id="vo"}
+                    <li class="wow fadeInUp">
+                        <div><img src="{$vo}" /></div>
+                    </li>
+                    {/volist}
+                </ul>
+            </div>
+        </div>
+
+        <!--方向-->
+        <div class="lh-way" id="#10">
+            <div class="container">
+                <ul class="lh-way-item lh-flex clearfix">
+                    {volist name="studyway" id="vo"}
+                    <li class="wow fadeInUp">
+                        <a href="javascript:;">
+                            <div class="icon"></div>
+                            <div class="text">
+                                <h2>
+                                    {$vo.introduction_title}
+                                </h2>
+                                <h3>
+                                    {$vo.introduction_tag}
+                                </h3>
+                                <pre>{$vo.ccont}</pre>
+                            </div>
+                        </a>
+                    </li>
+                    {/volist}
+                </ul>
+            </div>
+        </div>
+        <!-- 自考流程-->
+        {include file="public/process"}
+        <!-- major -->
+        {include file="public/major"}
+        <!--流程-->
+        <!--学历提升的作用-->
+        {include file="public/role"}
+        <!--题库-->
+        {include file="public/bank"}
+        <!-- 证书展示 -->
+        {include file="public/certificate"}
+        <!-- 学生风采 -->
+        {include file="public/student"}
+        <!-- advantages -->
+        {include file="public/advantages"}
+    </div>
+</div>
+{include file="public/footer"}

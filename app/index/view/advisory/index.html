@@ -1,0 +1,351 @@
+{include file="public/header"}
+<link rel="stylesheet" type="text/css" href="__CSS__/consultation.css"/>
+<!--main-->
+<div class="lh-main other">
+    <!--ban-->
+    {include file="public/ban"}
+    <div class="lh-position">
+        <div class="container lh-consultation">
+            <!--报名表单-->
+            <div class="lh-message  c-w-50">
+                <div class="c-w ">
+                    <h2 class="wow fadeInUp">在线报名</h2>
+                    <h3 class="wow fadeInUp">请填写正确信息,以便工作人员及时与您联系<span>*</span> 为必填</h3>
+                    <form method="post" class="consultForm">
+                        <ul class="lh-message-input lh-flex clearfix">
+                            <li class="wow fadeInUp">
+                                <div>
+                                    <label>姓&emsp;&nbsp;&nbsp;&nbsp;名<span>*</span>&nbsp:</label>
+                                    <input class="formVal" autocomplete="off" type="text" name="name"
+                                           placeholder="请输入您的姓名"/>
+                                </div>
+                            </li>
+                            <li class="wow fadeInUp">
+                                <div class="sex-x">
+                                    <label>性&emsp;&nbsp;&nbsp;&nbsp;别 &nbsp:</label>
+                                    <div class="sex-input-x">
+                                        <div style="display: -webkit-flex;display: -moz-flex; display: -ms-flexbox;display: flex;flex-direction: row;align-items: center;justify-content:center">
+                                            <input type="radio" name="sex" value="0" class="sex" checked/><label>男</label>&nbsp;&nbsp;
+                                        </div>
+                                        <div style=" display: -webkit-flex;display: -moz-flex; display: -ms-flexbox;display: flex;flex-direction: row;align-items: center;justify-content:center">
+                                            <input type="radio" name="sex" value="1" class="sex"/>
+                                            <label>女</label>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="wow fadeInUp">
+                                <div>
+                                    <label>电&emsp;&nbsp;&nbsp;&nbsp;话<span>*</span>&nbsp:</label>
+                                    <input class="formVal" autocomplete="off" type="text" name="tel"
+                                           placeholder="请输入您的电话"/>
+                                </div>
+                            </li>
+
+
+                            <li class="wow fadeInUp">
+                                <div>
+                                    <label>报读学校&nbsp:</label>
+                                    <select name="school" id="" class="select">
+                                        <option value="0">请选择报考学校</option>
+                                        <option value="其他">其他</option>
+                                        {volist name="hot_school" id="vo"}
+                                        <option value="{$vo.title}">{$vo.title}</option>
+                                        {/volist}
+                                    </select>
+                                </div>
+                            </li>
+
+
+                            <li class="wow fadeInUp">
+                                <div>
+                                    <label>报考类别&nbsp:</label>
+                                    <select name="learnType" id="category" class="select">
+                                        <option value="0">请选择报考类别</option>
+                                        {volist name="category" id="vo"}
+                                        <option value="{$vo.introduction_title}">{$vo.introduction_title}</option>
+                                        {/volist}
+                                    </select>
+                                </div>
+                            </li>
+
+                            <li class="wow fadeInUp">
+                                <div>
+                                    <label>意向专业&nbsp:</label>
+                                    <select name="major" class="select">
+                                        <option value="0">请选择专业</option>
+                                        <option value="其他">其他</option>
+                                        {volist name="hot_major" id="vo"}
+                                        <option value="{$vo.title}">{$vo.title}</option>
+                                        {/volist}
+                                    </select>
+                                </div>
+                            </li>
+
+                            <li class="wow fadeInUp">
+                                <div>
+                                    <label>前置学历&nbsp&nbsp&nbsp:</label>
+                                    <!--<input class="formVal" type="text" name="education" placeholder="请输入内容"/>-->
+									<select name="major" class="select">
+                                        <option value="0">请选择前置学历</option>
+                                        <option value="1">初中</option>
+                                        <option value="2">高中</option>
+                                        <option value="3">大专</option>
+                                        <option value="4">本科</option>
+                                        <option value="5">其他</option>
+                                    </select>
+                                </div>
+                            </li>
+
+                            <li class="wow fadeInUp">
+                                <div>
+                                    <label>户&emsp;&nbsp;&nbsp;&nbsp;籍&nbsp;&nbsp; :</label>
+                                    <input class="formVal" autocomplete="off" type="text" name="adress"
+                                           placeholder="请输入您的户籍所在地"/>
+                                </div>
+                            </li>
+
+                            <li class="wow fadeInUp">
+                                <div>
+                                    <label>身份证号&nbsp;&nbsp;&nbsp;:</label>
+                                    <input class="formVal" autocomplete="off" type="text" name="idNum"
+                                           placeholder="请输入您的身份证号"/>
+                                </div>
+                            </li>
+
+                            <li class="wow fadeInUp">
+                                <div>
+                                    <label>备&emsp;&nbsp;&nbsp;&nbsp;注&nbsp;&nbsp; :</label>
+                                    <input class="formVal" type="text" name="cont" placeholder="请输入您的想说的文字内容"/>
+                                </div>
+                            </li>
+                            <li class="wow fadeInUp">
+                                <a href="javascript:;" id="btn" onclick="$(this).parent().submit()">立即报名</a>
+                                <input type="submit" style="display:none"/>
+                            </li>
+
+                        </ul>
+                    </form>
+                </div>
+            </div>
+
+            <!-- 联系方式 -->
+            <div class="c-w-50 contact-info lh-message">
+                <div class="c-w c-m-auto">
+                    <h2 class="wow fadeInUp">联系方式</h2>
+                    <div class="qr-code">
+                        <div class="qr-right qr-layout">
+                            <div class="img"><img src="{$config.header_log|geturl}"/></div>
+                            <h5>
+                                商务合作
+                            </h5>
+                        </div>
+                        <div class="qr-right qr-layout">
+                            <div class="img"><img src="{$config.chamiedu_img|geturl}"/></div>
+                            <h5>
+                                扫码咨询报名
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="hot-contact">
+                        <h3><i class="iconfont icon-dianhua"></i>&nbsp免费咨询热线</h3>
+                        <h4>
+                            {$config.contact_phone}
+                        </h4>
+                    </div>
+                    <div class="concat-x">
+                        <h3 class="left">
+                            {$config.company}
+                        </h3>
+                        <ul class="left clearfix">
+                            <li class="concat-c-li"><i class="iconfont icon-dianhua"></i>监督电话 &nbsp;
+                                {$config.contact_information['complaint_phone']}
+                            </li>
+                            <li class="concat-c-li"><i class="iconfont icon-dianhua"></i>咨询热线&nbsp;{$config.contact_information['support_hotline']}
+                            </li>
+                            <li class="concat-c-li"><i
+                                    class="iconfont icon-yy"></i>&nbsp;&nbsp;邮箱&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                {$config.contact_information['email']}
+                            </li>
+                            <li class="concat-c-li"><i
+                                    class="iconfont icon-dizhi1"></i>&nbsp;&nbsp;地址&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                {$config.company_address}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lh-contact padding90">
+            {volist name="contact_list" id="vo"}
+            <div class="container">
+                <div class="lh-contact-a clearfix wow fadeInUp">
+                    <h2 class="left">{$vo.company}</h2>
+                </div>
+                <div class="lh-contact-b clearfix wow fadeInUp">
+                    <ul class="left clearfix">
+
+                        <li><i class="iconfont icon-dizhi1"></i>地址&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            {$vo.address}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {/volist}
+        <!--map-->
+        <div id="Map" class="lh-map wow zoomIn"></div>
+    </div>
+</div>
+
+<!--footer-->
+{include file="public/footer"}
+
+<script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=ny22a16GzbMDs1xHsTvjlqtZYpwFhUbw"></script>
+<script type="text/javascript">
+    //创建地图
+
+    var myMap = new BMap.Map('Map');
+
+    var point = new BMap.Point(104.129172, 30.619942);
+    var points = new BMap.Point(104.129172, 30.619942);
+
+    myMap.centerAndZoom(point, 12);
+
+    var myIcon = new BMap.Icon("__IMG__/marker-icon.png", new BMap.Size(131, 135), {
+
+        //imageOffset:new BMap.Size(0,30)
+
+    }); //定义自己的标注
+
+
+    //添加覆盖物
+
+    var marker = new BMap.Marker(point, {
+        icon: myIcon
+    }); // 创建标注
+    var markers = new BMap.Marker(points, {
+        icon: myIcon
+    }); // 创建标注
+
+    myMap.addOverlay(marker); // 将标注添加到地图中
+    myMap.addOverlay(markers); // 将标注添加到地图中
+
+    marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+    markers.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+
+
+    //添加控件
+
+    myMap.addControl(new BMap.NavigationControl()); // 平移缩放
+
+    myMap.addControl(new BMap.OverviewMapControl()); //缩略地图
+
+    //myMap.enableScrollWheelZoom(); //滚轮缩放
+
+    var sel = document.querySelectorAll('select')
+    sel.forEach(function (item) {
+        item.onclick = function () {
+            var ind = item.selectedIndex
+            //获取option的value值
+            var val = item[ind].value
+        }
+    })
+</script>
+<script>
+    // 报考咨询表单提交
+    $('.consultForm').submit(function () {
+        var obj = $(this),
+            data = { source: 'reg' };
+        var sex = getRadioValue('sex')
+        getSelectValue(data)
+        data['sex'] = sex
+        data = getFormData(obj, data);
+        if (!data.name) {
+            alert('请填写姓名');
+            obj.find('input[name="name"]').focus();
+            return false;
+        }
+        if (!data.tel) {
+            alert('请输入电话');
+            obj.find('input[name="tel"]').focus();
+            return false;
+        }
+        if(!(/^1(3|4|5|6|7|8|9)\d{9}$/.test(data.tel))){
+            alert("手机号码有误，请重填");
+            obj.find('input[name="tel"]').focus();
+            return false;
+        }
+        subAjaxForm(obj, data, function () { }, function (msg) {
+            if (msg && msg.code == 1) {
+                obj.removeClass('lj');
+                alert(msg.html ? msg.html : '保存成功');
+                window.location.reload();
+            } else {
+                obj.removeClass('lj');
+                alert(msg.html ? msg.html : '服务器响应失败,请重传提交');
+            }
+        }, function () { })
+
+        return false;
+    })
+
+    // 获取radio 值
+    function getRadioValue(radioName) {
+        var radioValue;
+        radioValue = document.getElementsByName(radioName);
+        if (radioValue != null) {
+            var i;
+            for (i = 0; i < radioValue.length; i++) {
+                if (radioValue[i].checked) {
+                    return radioValue[i].value;
+                }
+            }
+        }
+        return null;
+    }
+    // 获取页面所有select 的选择值
+    function getSelectValue(data) {
+        var select = [];
+        $("select option:selected").each(function () {
+            if ($(this).val()) {
+                select.push($(this).val());
+            }
+        });
+        $("select").each(function (i) {
+            if ($(this).attr('name')) {
+                var name = $(this).attr('name')
+                data[name] = select[i]
+            }
+        })
+    }
+
+    function getFormData(obj, data) {
+        data['sign'] = $('meta[name="sign"]').attr('content');
+        obj.find('.formVal').each(function () {
+            data[$(this).attr('name')] = $(this).val();
+        })
+        return data;
+    }
+    function subAjaxForm(obj, data, bre, suc, err) {
+        if (obj.hasClass('lj')) return false;
+        $.ajax({
+            type: 'post',
+            data: data,
+            dataType: 'json',
+            beforeSend: function () {
+                bre();
+                obj.addClass('lj');
+            },
+            error: function () {
+                alert('服务器响应失败');
+                obj.removeClass('lj');
+                err();
+            },
+            success: function (msg) {
+                suc(msg);
+            }
+        })
+    }
+</script>

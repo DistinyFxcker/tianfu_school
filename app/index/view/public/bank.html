@@ -1,0 +1,42 @@
+<div class="lh-bank">
+    <div class="container clearfix">
+        <div class="lh-bank-flex clearfix">
+            <div class="lh-bank-mob left wow fadeInUp " id="#6">
+                <div class="lh-bank-h" style="background-image:url({$thumb.thumb});">
+                    历年题目题库
+                </div>
+                <ul class="lh-bank-item">
+                    {volist name="questionbank" id="vo"}
+                    <li>
+                        <a href='{:url("/index/$controller/detail",["id"=>$vo.id])}'>
+                            <h2>
+                                {$vo.introduction_title}
+                            </h2>
+                            <h3 data-url="{$config.customer_link}"
+                                class="lhLjzx">立即咨询</h3>
+                        </a>
+                    </li>
+                    {/volist}
+                </ul>
+            </div>
+            <div class="lh-bank-mob right wow fadeInUp" id="#6">
+                <div class="lh-bank-h" style="background-image:url({$mock_thumb.thumb});">
+                    考试模拟题
+                </div>
+                <ul class="lh-bank-item">
+                    {volist name="mock_questionbank" id="vo"}
+                    <li>
+                        <a href='{:url("/index/$controller/detail",["id"=>$vo.id])}'>
+                            <h2>
+                                {$vo.introduction_title}
+                            </h2>
+                            <h3 data-url="{$config.customer_link}"
+                                class="lhLjzx">立即咨询</h3>
+                        </a>
+                    </li>
+                    {/volist}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

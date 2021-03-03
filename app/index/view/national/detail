@@ -1,0 +1,33 @@
+
+{include file="public/header"}
+<link rel="stylesheet" type="text/css" href="__CSS__/deatil.css" />
+<!--main-->
+<div class="lh-main other">
+    <!--ban-->
+    {include file="public/ban"}
+    <div class="lh-position" style="background:#F5F5F5">
+        <!--通知公告-->
+        <div class="lh-announcement">
+            <div class="container">
+                <div class="lh-detail">
+                    <h1 class="lh-detail-h1">{$row.introduction_title}</h1>
+                    <h2 class="lh-detail-h2"><span>{$row.create_time|strtotime|date="Y-m-d",###}</span><span>{$type}</span></h2>
+                    <div class="lh-detail-cont clearfix"><pre>
+                        {$row.introduction_content}
+                    </pre></div>
+                    <div class="lh-detail-page clearfix">
+                        <!--                        <ul>-->
+                        <!--                            <li><a href="">上一篇：没有了</a></li>-->
+                        <!--                            <li><a href="">下一篇:dd</a></li>-->
+                        <!--                        </ul>-->
+                        <a href="javascript:history.back(-1)"><i class="iconfont icon-l-xiangzuo"></i>返回上一页</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer-->
+{include file="public/footer"}
+</body>
+</html>

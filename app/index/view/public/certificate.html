@@ -1,0 +1,49 @@
+<div class="lh-certificate " id="#9">
+    <div class="container lh-mobile-show">
+        <div class="lh-position lh-overflow swiper-container">
+            <div class="lh-certificate-banner lh-public-banner" data-delay="2000" data-freeMode="1" ,
+                data-slidesPerView="4" data-webslidesPerView="2" data-loop="1" data-autoplay="1">
+                <div class="lh-certificate-h clearfix wow fadeInUp">
+                    <h2 class="left">
+                        证书展示
+                    </h2>
+                    <ul class="lh-certificate-hd bannerbd" style="display: block;"></ul>
+                </div>
+                <ul class="swiper-wrapper bd lh-certificate-item lh-layerImg">
+                    {volist name="certificate" id="vo"}
+                    <li class="swiper-slide wow fadeInUp">
+                        <a href="javascript:;" data-bigImg="{$vo.thumb}">
+                            <div class="img" style="background-image:url({$vo.thumb});">
+                            </div>
+                        </a>
+                    </li>
+                    {/volist}
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="certify" class="lh-certificate lh-pc-show  ">
+        <div class="swiper-container">
+            <div class="lh-certificate-h clearfix wow fadeInUp" style='margin-bottom: 15px;'>
+                <h2 class="left">
+                    证书展示
+                </h2>
+                <ul class="lh-certificate-hd bannerbd"></ul>
+            </div>
+            <div class="swiper-wrapper  swiper-list  fadeInUp">
+                {volist name="certificate" id="vo"}
+                <div class="swiper-slide">
+                    <img src="{$vo.thumb}" />
+                </div>
+                {/volist}
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+</div>

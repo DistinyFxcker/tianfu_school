@@ -1,0 +1,1282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da7eb309-3440-4c66-968b-295e6a1157d2" name="Default Changelist" comment="资源文件">
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Adultcertificate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Adultcollege.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Advisory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Advisorycenter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Aid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Album.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Authority.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Banner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Business.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Cadult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Cadvantage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Certificate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Chamiadvantage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Culture.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Enhancement.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Examprocess.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Feedback.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Gaokao.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Goodnews.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Honor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Hot.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Hotmajor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Introductionexams.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Major.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Mock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Notice.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Onlineadvantage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Onlinecertificate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Onlineeducation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Onlinemajor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Onlinemock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Onlinequestion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Onlinestyle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Openadvantage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Opencertificate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Openeducation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Openfeatures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Openmajor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Openmock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Openprocess.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Openquestionbank.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Openreg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Openstyle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Openuniversity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Precautions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Publicity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Question.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Questionbank.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Recruitment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Signup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Simulation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Studentstyle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Studyprocess.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Studyway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Style.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/traits/Curd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/adultcertificate/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/adultcertificate/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/adultcollege/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/adultcollege/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/advisory/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/aid/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/aid/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/album/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/album/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/authority/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/authority/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/banner/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/banner/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/business/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/business/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/cadult/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/cadult/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/cadvantage/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/cadvantage/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/category/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/category/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/certificate/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/certificate/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/chamiadvantage/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/chamiadvantage/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/contact/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/culture/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/culture/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/enhancement/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/enhancement/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/examprocess/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/examprocess/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/gaokao/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/gaokao/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/goodnews/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/goodnews/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/honor/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/honor/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/hot/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/hot/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/hotmajor/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/hotmajor/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/introductionexams/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/introductionexams/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/major/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/major/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/mock/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/mock/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/notice/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/notice/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/onlineadvantage/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/onlineadvantage/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/onlinecertificate/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/onlinecertificate/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/onlineeducation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/onlineeducation/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/onlinemajor/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/onlinemajor/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/onlinemock/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/onlinemock/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/onlinequestion/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/onlinequestion/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/onlinestyle/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/onlinestyle/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/openadvantage/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/openadvantage/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/opencertificate/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/opencertificate/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/openeducation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/openeducation/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/openfeatures/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/openfeatures/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/openmajor/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/openmajor/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/openmock/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/openmock/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/openprocess/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/openprocess/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/openquestionbank/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/openquestionbank/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/openreg/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/openreg/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/openstyle/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/openstyle/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/openuniversity/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/openuniversity/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/precautions/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/precautions/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/publicity/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/publicity/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/question/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/question/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/questionbank/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/questionbank/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/recruitment/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/recruitment/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/signup/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/simulation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/simulation/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/studentstyle/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/studentstyle/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/studyprocess/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/studyprocess/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/studyway/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/studyway/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/style/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/style/publish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/model/AdminMenu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/model/Business.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/model/Messages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/model/Recruitment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/model/Webconfig.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/controller/Adult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/controller/Advisory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/controller/Chami.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/controller/National.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/controller/Online.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/controller/Recruitment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/controller/Selfs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/adult/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/advisory/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/chami/detail_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/chami/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/contact/advisory_center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/contact/feedback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/contact/recruitment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/index/adult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/index/self.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/national/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/news/authority.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/news/hot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/news/notice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/online/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/public/advantages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/public/ban.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/public/bank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/public/certificate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/public/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/public/major.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/public/process.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/public/process_copy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/public/role.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/public/second_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/public/student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/recruitment/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index/view/selfs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/css/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/css/adult.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/css/consultation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/css/deatil.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/css/distance.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/css/m_common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/css/nationnal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/css/news.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/css/pc_common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/css/photodetails.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/css/self.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/font/CenturyGothicbold.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/font/CenturyGothicbold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/font/CenturyGothicbold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/font/CenturyGothicbold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/font/CenturyGothicbold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/font/CenturyGothicbold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/font/Futura Bold BT.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/font/Futura Bold BT.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/font/Futura Bold BT.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/font/Futura Bold BT.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/font/Futura Bold BT.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/font/Futura Bold BT.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/font/Geometric 212 Book Condensed BT.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/font/Geometric 212 Book Condensed BT.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/font/Geometric 212 Book Condensed BT.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/font/Geometric 212 Book Condensed BT.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/font/Geometric 212 Book Condensed BT.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/font/Geometric 212 Book Condensed BT.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/0941417142.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1009129365.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1011334912.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1011398689.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1116069391.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1343077475.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1349376600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1418557528.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1455571355.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1456328700.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1457173561.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1457586953.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1458450597.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1459074149.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1506533098.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1508036545.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1513454688.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1514053561.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1516339507.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1537431034.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1537477759.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1537566215.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1538004344.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1544010099.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1615583879.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1616022170.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1621587168.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1628375035.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1644040878.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1717226663.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1720536326.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1732267496.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1732563507.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1733043584.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1744121262.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1744286187.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1751400497.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1758527227.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1809416517.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1823083353.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1825509984.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1826323831.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1826553154.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1827228776.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1955170701.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1955226229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/1957224655.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2000156634.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2000189969.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2002107334.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2007556209.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2009006858.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2009214472.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2017061543.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2017290236.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2017490712.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2018090150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2018288228.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2021013889.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2022393222.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2022554719.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2023130451.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2023319937.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2023472254.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2024079477.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2024237339.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2024571154.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2030478212.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2030588202.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2031121807.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2031256872.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2031397795.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2031582363.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2032133834.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2032434110.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2033100315.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2033211009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2043150201.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2043300545.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2100074029.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2127572633.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2137526970.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2138064916.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2204422497.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2204598855.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2205366889.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2213365123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2222564587.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2223102439.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190827/2231498980.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190828/1130314110.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190828/1137026631.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190828/1137117641.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190828/1137327364.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190828/1137408703.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190828/1138010829.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190828/1138311106.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190828/1138413748.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190828/1138588213.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190828/1139138330.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190828/1139304212.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190828/1139405941.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/0958229410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1000092917.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1000244409.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1110406012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1432410309.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1432445608.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1432479465.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1454128017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1454154597.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1454173387.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1520523187.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1520561271.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1521095488.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1521202354.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1521337722.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1521396825.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1521520927.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1521592511.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1522202614.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1522266168.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1522429246.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1522528375.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1523161749.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1523247309.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1529296046.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1529395295.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1529536773.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1529591784.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1537431034.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1537477759.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1537566215.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1538004344.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1538118945.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1538157250.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1538268976.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1538301837.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1538403471.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1538446590.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1540570101.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1540590661.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1541081146.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1541103823.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1541204045.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1541225288.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1541303201.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1541337768.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1541426612.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1541446606.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1541567840.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1542006536.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1550410078.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1550467140.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1550563349.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1551029798.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1551151800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1551205620.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1551326524.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1551396794.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1551510035.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1551595013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1552120412.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1552217846.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1552397891.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1553032278.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1553098618.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1608025936.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1609031557.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1615583879.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1616022238.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1616044774.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1621587168.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1622443299.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1632383849.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1632487935.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1641457242.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1642395386.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1652348083.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1652495758.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/20190902/1653032404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/4042.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/a3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/a4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/a5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/a6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/a7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/b3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/b4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/b5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/b6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/b7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/b8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/b9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/ban1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/ban2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/ban3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/ban4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/ban5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/ban6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/ban7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/c4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/c6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/c7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/c8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/c9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/ewm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/icon10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/icon11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/icon12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/icon5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/icon6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/icon7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/icon8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/icon9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/cs/map.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/icon1 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/icon1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/icon10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/icon11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/icon12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/icon13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/icon14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/icon5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/icon6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/icon7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/icon8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/icon9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/marker-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/qr/1040397846.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/qr/official.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/qr/qr.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/qr/sign.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/slide_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/slide_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/sslid_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/video.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/img/wm_button_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/js/masonry-docs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/js/plug-in.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/js/public.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/js/swiper-4.3.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/index/js/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201207/06736aba41160ea1b4b76605256ea0be.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201207/117d232b519fdf2bf51c9a95144b8263.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201207/2776553a89acb2f96c56ef589ca64f5f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201207/2d1718ed7f4168dc9ccde618171aa883.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201207/307b73d15f2bbaa2d06cc5dd9715e16d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201207/44da8e1a9c4de3ef84ba897fb078fc3e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201207/5d9a60784bffedf34bda878d77605af3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201207/784480778ed8923cfa945ea0a5c861e0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201207/bcce12e23cc76fccee6a38325681ddd2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201207/c57dbb81b77d8b294a67151f77606a7a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201207/c5a08152e3d19394d4efa0fd182b9162.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201207/f1d1974f293433c7d0b4862aac1ec09d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201207/fa9c2245568207fc5dbf0c77c5da80ca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/06172543690298a66e3dec5f53501de1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/0f08ed314b9e4f354aabc918e7e1e172.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/13b98cb92606fed69696f03ee8225fe3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/19ae5c3afc82782a4cdef19a96af4355.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/26931c5d9799a0cb349e5979ed85ee2f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/276834f45c2f141b01c9cc7286ed6497.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/29cea0356b0ea34ea8390d975f0f7b63.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/2a38e951d3753f53af5aca729d821db6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/2f0b6d44568fdea0b92cdb59321e5df9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/321abc591f99dcb5b8140edc5ca85ae6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/383838b7d9d159d2d63d6d2e38dbf4f3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/39cccab936d99486903f33419bcfd097.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/3a933b221dd22ad7682a84309956e928.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/3bf50c264b6c0fe3f8b8db3df67491f8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/3c91274d1ff40f4a3c752410c27d4006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/3d97d9b9e1666fdb14993566dad42bd6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/3fef40dfa9b006537a03c0fccc4a1739.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/409077b7e0fefc7c12b883e65fee115a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/482403f3dfa6ed4168f3316c8643de02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/4ce3b17e330249545d6e9f09112b6cf9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/4d6d3fb0ba8e058f3764fd3e9a91165e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/4ea4e20cf63b6ac56762154ed4080f2f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/507ede0bbfb54fa44b071fadb35d95bb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/59532df8a1b1ca6fa6f2a202a0c1b2bf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/614864b387671c42b4a530ac27c1dbd0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/61fbafe017c91fc59921f5459b481eff.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/656e5f3267976dfb1a7668f2cd58c735.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/666355efdf500bddc8788ee1cc585427.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/687a20503e6fa99bd3033dff9315cabb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/79a9a2d142f507316f8740f7e05396fe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/7a536f77ca984e26d62fe220607c9e2e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/819903e41550fdf016a6cb57b2788ba9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/89772d6bff9f1e1199e531a44c7280b4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/89c6078e75349aabda442666bfb8a56d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/8c6e5708e6aedbd8b6d162f3581a68e1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/8e9f9414d8246d212cc5f30202cfcfbf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/8ec7d06d08d565f475b36d7e96358d67.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/910c4c0a906c9503cbca738b02b8c2ab.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/93eb57ac80f481218a533849c0e039ae.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/9d17b61f42be6ee55456ebe1271c05c0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/a68a17e804aad6db964a91b22dee99f9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/ad866b872a00fb0333465445cc49bd63.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/b2e0b883afcc69403dae84bcebf589bb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/b427412a1ef6b16a9c7f06e2bd0cef36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/b9d1a81e6f2ead3c9de729e01adfb5a5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/c2787fa6394378727e27587e6f44f964.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/c779cdad58c19ffb0e011740fd8efa94.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/c7e7568e34e4e0589890f4405c1d1fdb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/c9f4957b3c90cd074f5d5bff5e3f8246.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/ca188d19e5062b6baacc1d41de0cb9b7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/ca4db7f595ef203296060e9ca162209e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/d04f2647a0eaa57788a367d9e767d70a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/d06339f314b5d66e784740a6eeb7ac37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/d12b4381485a922f577d6d92b3489f54.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/d6a090ec7ebfa2394239fa590add9107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/dad1e2ec594c8b9a97bb97609431e2df.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/dd17dd9efe81cb870586d019b7a3e421.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/de1aadc4edbd9dcbb1dda34c57bfd0f7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/de616502459e6190defad9963f3e5a92.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/de886063dec5719bfe2cbc9173042072.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/e797c25f2656ebd9882001438b138591.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/eb6db45eccade597fdc28c168eee54ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/ebefd98d8cb6a88a9cf3d005827bc4be.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/ec888a3067389b0b55ebd7c4af2edce1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/f47fa467c63b1cfbc89f92bb83bb1f60.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201208/fb0753b5e2e5187d8826c58631a23917.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/025cf4f43dc3465c5b3ba193aa91b27d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/03cbf93a6064055e018e6830a26bffb8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/0edb5a898bd3fb1938654d4111a3908a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/2022990b21c0bd9ab346a5b617614db6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/2287aed476c045454e15a1fefd1ffc6b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/3c4cebeabb0d2e375a734d9efbc2ea9e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/3f2349026a3935b6e37289584619be5f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/4fd8bb0b43410f9bdf1fd991c6d63eee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/521651bea8118d17a4c87c859ae14bf1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/573225391e8b3faba940f326975b3fa9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/581264111991d20a6043f8db05655bca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/5e89b13dff283d8af3b87a6b6f011310.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/5eb78103bd57d5aae565ed6354483c29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/715f4aba8124d7dd65ffacf8690f98af.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/76d5f6889e27b71c03ac5aeab37c0ca0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/836051dd0b6c7c2269188df58fee7e69.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/840d0e8d59f3c45ee7c62f63e014800f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/bfe3e6e921fa92e7756fef878b1dba82.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/c0d93e07985d2b90030fb8ba0ab36c7a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/c26beb11118a0b7021997bf95a564eba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/cca8bf483ff365646de1f210551b9017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/ce23964e51fb7955348258ac1ff57b5b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/ed6b302cb196ddcfadd9ceecffbdbe0e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/edbf13cbb10f43440a14781b1ac1b935.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/f8b185b0907d110467c5081823bff71c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/fda76da96d6646e194cba8a04c2efedd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/about_us/20201210/fe3d98bcd96b8fa9a3e890ae18ae2d99.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/news_thumb/20201207/272bce473c59a345b85fe1322467c4bc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/news_thumb/20201207/31a6b1e9825ce73bef2528586e7f453e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/news_thumb/20201207/76ef7851d5538a1f28468df494dda066.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/news_thumb/20201207/8c934597041f64b5dd6d060e51a1d99a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/news_thumb/20201207/9b174f633c87e9d950aa71e4cad73201.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/news_thumb/20201207/c9e6b3739f33381b8d163fc168fadcb6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/news_thumb/20201210/316c7166bcac4ce3d99fb1822d5e5932.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/news_thumb/20201210/bf037f3a980df5292b83dba6439bb7f5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/news_thumb/20201210/edc2ce0e8c5858fa109e3a794461148c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/news_thumb1/20201210/a90e8136df70ba3d810011d96ee97646.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/news_thumb1/20201210/bcb57c429538e7da7ba65ebd29201f9a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/news_thumb1/20201210/daaa9452cb411453d45c7bde222be629.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/news_thumb1/20201210/df51ce5249e57ad357d27d05f7293543.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/news_thumb1/20201210/e4206633a045026bb5f88ab6b2fd7eb5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/news_thumb1/20201210/f5c8b34dac25ca7c134f927938c0b185.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/product_thumb/20201207/7603579012c6db505f72f66e94a2162b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/product_thumb/20201207/e7e4d048945195d44c4c107c8b1a2221.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/product_thumb/20201207/ed2024c83854c1a567525a9f68cd70aa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201204/a250f74af9a98dcd2a8d43c75e2c0b8e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201207/03ed6b85e10444f1d2d5bdd003ea268f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201207/076fd0f6ead4bc1f080365da7ca99b19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201207/4b317922d30ecc5207fd5303f1e1a077.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201207/51cf48561778d348e05cba918a51b261.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201207/52bff320b31857fa7283de93f710a10a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201207/6e4d3b426c9e5f35ccff9ef236da2a5d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201207/7b9b50463d5ea570def6206b671bbf99.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201207/860e717fe4efbc7dd88c432ff959d797.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201207/88e1ef9d6a106a9b905a654a76ed40f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201207/99b632f5ec896f18f1ea2c37f944cbba.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201207/d83b0ffc8abef26e4a792e2ba9edf0ee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/022f3b5a45316851d689f1739e2dbe33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/06a6f9d979d0284e7254f553ba0d0650.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/0f018e6c5b2ca962cd50651a1c5bbfdd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/13524dadb331dbf78654283e793646c8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/1816293916d1a7f8ee8edc4055a320f1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/186b2391ec32991a1e39d3e52c48571d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/1f9715ead7cc7dd9b4430ec6aa7338da.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/20b0d3cd301a87797a4c4db470fb8caa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/22115a3d9bf5cd0b370f7a815fd8fd5e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/244ab516a5cccfbca222d4f6dca398f8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/29868e8f1eb7c0c594782d136ad2ab8a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/2ef10ae9910d4e24363f8f1bd34924ba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/2fa151f8a725f42ad110b5507861de5b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/341ecd4a42adbe6a90e726f4e3638fee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/366ca2d9742fb351fa4e7d1d9033ec82.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/3f0fc1d1a9f48035c4476692e85b802a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/401751b4a422130dcb7bc357f0be6d58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/466419da3a1574aeba1b724bf999d12b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/46f2697c89d43cbf1b1a925c2797d0f6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/4e1a449ad181fabca81ae9f46f0dd846.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/515d4611f4ac3a905706826736cec146.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/58f98e2ee084f8dc318f436977f3e359.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/5a403d9ffc96bc84614a429152022704.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/5e0b11df7f3ff6cff70335b3f2a1a689.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/6196560428520f6997e02986e480ca69.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/6538e60f7d347108fa23dbe237eb3897.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/6dbf3d05960234f9b9e300f71f353300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/71116b1d94dcc0913bc0f6776c17556d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/71b62ebdc788be01bde69e29b30bb260.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/71c6c4c3cae44b0434aab0f15ff02439.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/7216b23be818052596508152e3fb1b0f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/72a4a531db3251fedbd6a9ce2bd07eb4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/78077713e28a9464f66d4e68bcda1f12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/7a881db801084e61a62c03b3632f9bd5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/7bbd33e58a9963d03c778b8c4cb3842b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/87931ac5aa95ac192c55135f03a9e5a9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/885556f60a48ce5ae77a6dc704df76e3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/91cf4c0ca2294ffd590eb6626aba742c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/99abeda258ac99622625728a7d181097.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/9b75335a71683eab6d7e43f6333b5982.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/9ea157fa2162df9d4281af6f47ed444d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/9f27f4ffaca1219b4a099e950d40d347.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/a1265f81cdb51c4f2cc1087ab0f2cbc1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/a4286466f37e21fd3fa643d239b16653.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/a56d656362225d162477ebe06bbc7b75.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/afc97881140b1577d43df1764ea03738.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/b274fefc7ddaa02f864c121604c1c121.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/b458b15fa1b658245bc73a23a4c754e2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/b46c3ecc2861b6bb76fbfb60276a13b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/b62edaeb5f0643cbc66367ff1f6a8a39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/b7aa009bd4ffb73a16f5f747fc3fe541.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/ba971ba58b59a2e4709c705c6edfaa9f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/beef5d1a6b6fbdb554badf1f2d9802ba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/bf77957a6df54b20877cd6667bc12404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/c3f56c664c7a19a64df0dc96ea44a3a5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/c44ae17d21e74ec0172322e40a94c504.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/cb5427dd2e8b195b2fda744107e1a65a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/cca9671823b5a5c18eed5709a0832f95.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/d1ee08a884202a33cfba971c8e829b74.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/d642c8907f2e64e8e89dcd2f36038230.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/e6b5c54186ce95f0f86676a756c17f0a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/e742842f57fd69e0c266a95d05182235.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/e7e362f2132016695d6d50a9b419db6a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/e7e5fa2e10c3e66058d1a67c024fa2fc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/ea525ef1be0357b3b9ec8d05fe00e0f0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/f795c452cc9946b4843ede7fd63a1940.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/fbb3442e23f2658c6934ce0982daed45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201208/fc129b3c4f3a298a691315326e2b94ed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/0a694957981e87118521adbb787f7d10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/12ef8d3200993560a6d3b985b1da29e7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/280b3d2f418cdc2037569e9b4c159f43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/2b0625ca31f656bbae50304423cab5d0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/35fa41314fda426440a9998af213d676.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/37460a9ef084cd4745d9843d9a08feda.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/4128fb93128d2510bbcccf0318a28bb9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/4c33db410ca9f6a10a126447ff8eb346.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/4fa1411f34a7de5c5f34cea9c5071d0f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/4ff6014244f56a3ad82f58832e63b22d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/52e7f123bf640f1ce951f749f0759061.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/600a8f771c70579a6cb59c44c212d3db.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/676e78bafc6d8b6bf9f36bedbf576413.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/73e75adb57eff0c5817a0014227aadfa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/758fcc9782175dbadba4ea85f468db69.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/9af2c76cdd8920b03781ef9de1901cb5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/9f4789293a9c361190a36e441464f56b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/a07f3cab0ac8d4f5948f27d7dc797092.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/c6316a8b05f888955b3efdaf29bd7691.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/cc0e0cf5fe420ac0c026a887fa39dd00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/d8eca4d5e623ac97ebea4ab5910b30f5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/d918c7d53b6c798a3c9b1f12aeb19066.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/e012d2410b2e053ca1ce96f01fd887db.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/ea2eb88104efceac98a0df64605be69f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/eac49be54650f02fc9fbcb34a5357b74.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/f0d97b257f0a7abd5877a4a2e1b6971f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201209/fd8a2ae65b06c181d46ead597185840d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/044dfd6661705146fbc4b88e3d53c2f1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/04b508e480bb19487f202e2935944f44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/07fb4a2988b308ef6988475918dfecaa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/1bc8a20065b081a102e3708c721b597e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/1d28435012972f9078bfeb6b5202ad2d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/22d9fd1b753c0163fb08e5c7d79cbe45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/255f911b06d5c7a9665f9a3f17c7a168.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/261b8e3c241a8cf15069dade3a650373.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/3ce9d05f80ecd719188ea6bc7831f401.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/55ab17e6a08c3e192ceb43ebb062f959.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/57bd795d20aab7d48e6f9189bfad3633.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/656e54c1ed4b1faec316b19d8467540d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/6c15d9e12ec176b662d5f2d2dc3e6021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/7065d4f183ec3b87bf7639e0cceaf2e9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/7e48d64674ec1a36ba8a7d15fa5a1855.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/80971f6cafea79ea60c9f0a4ccf0c38e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/83e7f1d335e5479d479642ce9f8a68ae.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/86da24ccca81dd0afd332af95c2308a5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/8e02d6af66075e7889c12a11cbb9fb83.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/9e2873d57db4388f66e0c829a632a7c1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/add13d482c840012783ff0abe3af83d2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/afb9aec1638b70a0cdac92e38250b4dd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/c19a04e1e29469062f364187764b0d3e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/e7311f1bf1b0d9d7a87ef250ca680c2f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/admin/thumb/20201210/f7221fb721fe872b6f5b48a6a7256a08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/activity.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/yii2settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/controller/About.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/controller/About.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/controller/Advantage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/controller/Advantage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/controller/Answer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/controller/Company.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/controller/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/controller/Contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/controller/Linkcategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/controller/Linkseries.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/controller/Linkseries.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/controller/Permissions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/controller/Permissions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/controller/Product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/controller/Recommend.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/controller/Saleservice.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/controller/Secondmenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/controller/Secondmenu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/controller/Tomessages.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/controller/Tomessages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/controller/Webconfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/controller/Webconfig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/view/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/view/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/view/about/publish.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/view/about/publish.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/view/advantage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/view/advantage/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/view/advantage/publish.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/view/advantage/publish.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/view/answer/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/view/answer/publish.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/view/common/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/view/common/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/view/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/view/contact/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/view/linkseries/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/view/linkseries/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/view/linkseries/publish.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/view/linkseries/publish.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/view/menu/publish.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/view/menu/publish.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/view/parentmenu/publish.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/view/parentmenu/publish.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/view/product/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/view/product/publish.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/view/secondmenu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/view/secondmenu/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/view/secondmenu/publish.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/view/secondmenu/publish.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/view/tomessages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/view/tomessages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/view/webconfig/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin/view/webconfig/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/common/model/Answer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/common/model/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/common/model/Base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/common/model/Customer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/common/model/LinkTitle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/common/model/ListProduct.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/common/model/Product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/common/model/Service.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/controller/About.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/controller/Advantage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/controller/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/index/controller/Base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/controller/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/index/controller/Contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/controller/Customer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/index/controller/Index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/controller/News.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/index/controller/News.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/controller/Product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/controller/Service.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/view/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index/view/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/view/advantage/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/view/contact/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/view/customer/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/view/customer/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/view/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index/view/index/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/view/news/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index/view/news/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/view/news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index/view/news/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/view/product/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/view/product/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/view/public/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index/view/public/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/view/public/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index/view/public/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/view/service/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index/view/service/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/css/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/index/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/css/style_pag.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/css/swiper-3.3.1.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/20180602113233_5000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/20180706124329_4531.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/20180706124410_7812.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/20180706124629_1250.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/20181023151407_2500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/20181023151428_5468.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/2xq_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/2xq_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/2xq_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/2xq_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/2xq_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/2xq_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/2xq_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/banner_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/banner_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/banner_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/banner_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/banner_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/banner_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/bg2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/cclx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/cclx_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/cp_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/cp_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/cp_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/cp_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/cp_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/cp_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/cp_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/cp_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/cp_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/cp_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/cp_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/cp_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/cp_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/cp_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/cp_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/cp_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/cp_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/dt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/ewm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/gang.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/gs_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/gs_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/gs_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/gsdz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/gsdz_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/gywm_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/gywm_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/gywm_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/gywm_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/gzxx_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/gzxx_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/gzxx_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/gzxx_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/gzxx_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/gzxx_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/hb_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/hb_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/hb_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/hb_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/index_aq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/index_auto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/index_auto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/index_bj1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/index_bj1_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/index_bj2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/index_bj2_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/index_bj3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/index_bj3_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/index_gsaq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/index_gszp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/index_jj1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/index_jj2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/index_jj3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/index_login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/index_login_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/index_qw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/index_sh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/index_zl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/index_zla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/index_zy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/jieshao.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/link.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/lunbo_pt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/lunbo_pt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/lxdh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/lxdh_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/mc_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/mc_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/mc_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/mc_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/mc_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/mc_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/right1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/right2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/right_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/ry_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/ry_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/ry_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/ry_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/ry_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/ry_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/ry_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/ry_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/ry_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/ry_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/ry_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/ry_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/sh_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/sh_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/souho_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/souho_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/wx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/xq_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/xq_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/xq_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/xq_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/xq_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/xq_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/xq_a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/xw_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/xw_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/xw_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/xw_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/ys_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/ys_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/ys_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/ys_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/ys_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/ys_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/zhanshi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/img/首页2_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/js/jquery-1.10.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/js/jquery-1.11.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/index/js/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/index/js/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor/php/upload/image/20190520/1558342158515219.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor/php/upload/image/20190520/1558342158982372.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor/php/upload/image/20190520/1558342301320500.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor/php/upload/image/20190520/1558342301372741.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor/php/upload/image/20190520/1558345112107097.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor/php/upload/image/20190520/1558345113122799.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor/php/upload/image/20190520/1558345274127894.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor/php/upload/image/20190520/1558345275844240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor/php/upload/image/20190520/1558346207110750.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor/php/upload/image/20190520/1558346208203196.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor/php/upload/image/20190520/1558346269192911.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor/php/upload/image/20190520/1558346270121573.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor/php/upload/image/20190522/1558532752586566.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor/php/upload/image/20190526/1558869526126767.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor/php/upload/image/20190526/1558869926581359.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/Product/Product/20190528/3d503db9a32117d12087ab30ec96c8f7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/admin_thumb/20180104/79811855a6c06de53047471c4ff82a36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/article_thumb/20190528/0d84abc6dadadfe4b53ac805435b5d0c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/article_thumb/20190528/12debbecd5f3a5c8a0f420a0fb8c31c6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/article_thumb/20190528/269ab4e49864604a47bf41815940a0aa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/article_thumb/20190528/3a06e7bb352493788fca716e1b128ba2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/article_thumb/20190528/499ba11e76475d0d8e87a3f1c4bc9c36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/article_thumb/20190528/49d3631f0875ecb9fb93fd8fd87f30b5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/article_thumb/20190528/6e37962bb704e41df64fa9feabcd0c28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/article_thumb/20190528/753ce55e689e4118de9cfc23b12c6e13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/article_thumb/20190528/8303b5603f1be92a4783cb1d26b8f217.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/article_thumb/20190528/a5eced30b27c06a059f3be26f0b04344.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/article_thumb/20190528/ae12004075eb17622d75a8bbed5b0b4d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/article_thumb/20190528/baf069e81584c07e92d907e422093438.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/article_thumb/20190528/bd0cc73750845b333c8a5ba59486323b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/article_thumb/20190528/d02a98cde3b05d393519b99b056a40cf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/article_thumb/20190528/f7cd9c40e65cb8e6bb1c283bde723346.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/article_thumb/20190528/ff10c184fa7436f7fba65bf1f4539ca8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/carousel/20190528/081fd333a05ed41a117fa9efc7fc44ec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/carousel/20190528/1a81b5e88234ed29e0c63d2bd4976ce0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/carousel/20190528/72b62d1784371dc4ef03a9ade63a2b81.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/carousel/20190528/f056fbd2757894f3352705f1cd81f488.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/news_thumb/20190528/0684039d5c9c7348a4db0cb1de5d7951.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/news_thumb/20190528/1d2f5e85dc3ac6e5decffc6ac823c534.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/news_thumb/20190528/3dbfc2a3864d3ea96e010b4bb8d9d495.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/news_thumb/20190528/53ed308fe60262bbc98aead01f890423.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/news_thumb/20190528/545e7efcab2075d008d438ff6b1476a8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/news_thumb/20190528/6c14b39975e27108220be94844b2d67a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/news_thumb/20190528/a27e14d2fa9859c55948b1be5b2224cf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/news_thumb/20190528/a5ca043a54d05fde3eaf144f318f349d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/news_thumb/20190528/c4a4258f58b181059d2b1bbcafe3dc9f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/news_thumb/20190528/d12d7eaf052c33ad9b83557812dd6811.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/news_thumb/20190528/d9bb1e5ca3a06db151e1ff65d0b3aeac.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/news_thumb/20190528/f969e3531c33a47ae25b51c55e1ba16b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/product_thumb/20190528/e5d6244f3c3411aebb395666305493f7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/admin/thumb/20190528/46b8ecc9d8903380772d73400ca8c929.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201905/20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/a4cfdcb443135a6b891c7182bf5b9f8e.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/examples" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/extras" />
+      <path value="$PROJECT_DIR$/vendor/phpmailer/language" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-installer" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-queue" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-migration" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-captcha" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-mongo" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-image" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-testing" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-helper" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1kiP6l4QEs9UwtHXPE9gH86IH7X" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/static/index/css" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\activity\public\static\index\css" />
+      <recent name="E:\project\activity\app\index\view\chami" />
+      <recent name="E:\project\activity\public\uploads" />
+      <recent name="E:\project\activity\public\static\index" />
+      <recent name="E:\project\activity\app\index\view\advisory" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\activity\app\admin\view\business" />
+      <recent name="D:\demo\activity\app\index\view\public" />
+      <recent name="D:\demo\activity\app\index\view" />
+      <recent name="D:\demo\activity\app\common\model" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da7eb309-3440-4c66-968b-295e6a1157d2" name="Default Changelist" comment="" />
+      <created>1558359089937</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558359089937</updated>
+      <workItem from="1558359091373" duration="9636000" />
+      <workItem from="1558401461834" duration="20318000" />
+      <workItem from="1558447585334" duration="9466000" />
+      <workItem from="1606180268226" duration="2695000" />
+      <workItem from="1606371845213" duration="6094000" />
+      <workItem from="1606439122475" duration="12822000" />
+      <workItem from="1606698327235" duration="22393000" />
+      <workItem from="1606784702820" duration="22595000" />
+      <workItem from="1606871122687" duration="19896000" />
+      <workItem from="1606957432125" duration="11689000" />
+      <workItem from="1607043925531" duration="23290000" />
+      <workItem from="1607303646462" duration="24071000" />
+      <workItem from="1607389543860" duration="25811000" />
+      <workItem from="1607480784166" duration="13305000" />
+      <workItem from="1607565187496" duration="23607000" />
+      <workItem from="1607648516722" duration="30244000" />
+    </task>
+    <task id="LOCAL-00001" summary="新闻中心">
+      <created>1558368727276</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558368727276</updated>
+    </task>
+    <task id="LOCAL-00002" summary="webconfig">
+      <created>1558407899004</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558407899004</updated>
+    </task>
+    <task id="LOCAL-00003" summary="联系我们">
+      <created>1558410298964</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558410298964</updated>
+    </task>
+    <task id="LOCAL-00004" summary="轮播">
+      <created>1558421095252</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558421095252</updated>
+    </task>
+    <task id="LOCAL-00005" summary="删除">
+      <created>1558421659641</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558421659641</updated>
+    </task>
+    <task id="LOCAL-00006" summary="删除ajax">
+      <created>1558421684540</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558421684540</updated>
+    </task>
+    <task id="LOCAL-00007" summary="客户案例">
+      <created>1558423477946</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558423477946</updated>
+    </task>
+    <task id="LOCAL-00008" summary="分类管理">
+      <created>1558433115644</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1558433115644</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="资源文件" />
+    <MESSAGE value="新闻中心" />
+    <MESSAGE value="webconfig" />
+    <MESSAGE value="联系我们" />
+    <MESSAGE value="轮播" />
+    <MESSAGE value="删除" />
+    <MESSAGE value="删除ajax" />
+    <MESSAGE value="客户案例" />
+    <MESSAGE value="分类管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="分类管理" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607674039156">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607674039156" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607655280754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607655280754" />
+    <state x="776" y="443" key="NewPhpFileDialog" timestamp="1607671254850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607671254850" />
+    <state x="823" y="240" key="RollbackChangesDialog" timestamp="1607044774172">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="823" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607044774172" />
+    <state x="662" y="228" width="656" height="584" key="find.popup" timestamp="1607680711647">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="228" width="656" height="584" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607680711647" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1606469885522">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606469885522" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607671162001">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607671162001" />
+  </component>
+</project>

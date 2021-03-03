@@ -1,0 +1,109 @@
+{include file="public/header"}
+<link rel="stylesheet" type="text/css" href="__CSS__/nationnal.css" />
+{include file="public/ban"}
+<div class="lh-main other">
+    <div class="lh-position">
+        <!--介绍-->
+        <div class="lh-introduce kfdx padding75" id="#99">
+            <div class="container clearfix">
+                <div class="lh-about-img lh-public-banner kfdx right wow zoomIn">
+                    <ul class="swiper-wrapper bd">
+                        <li class="swiper-slide">
+                            <a href="javascript:;">
+                                <div class="img" style="background-image:url({$introduction.thumb});"></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="lh-about-hd bannerbd"></ul>
+                </div>
+                <div class="lh-introduce-r left">
+                    <h2 class="lh-other-h2 wow fadeInUp">
+                        {$introduction.introduction_title}
+                    </h2>
+                    <pre
+                            class="wow fadeInUp  c-overflow-y">{$introduction.ccont}</pre>
+                    <div class="loadmore-x wow fadeInUp">点击加载全文</div>
+                    <a href="javascript:;"
+                       data-url="{$config.customer_link}"
+                       class="lhLjzx wow fadeInUp">立即咨询</a>
+                </div>
+            </div>
+        </div>
+
+        <!--特点-->
+        <div class="lh-characteristics padding80" id="#2"
+             style="background-image:url({$back_ground.thumb});">
+            <div class="container">
+                <h2 class="lh-other-h2 white wow fadeInUp">
+                    {$back_ground.name}特点
+                </h2>
+                <ul class="lh-characteristics-item">
+                    {volist name="features_list" id="vo"}
+                    <li class="wow fadeInUp ">
+                        <span>
+                            {$vo.introduction_title}
+                        </span>
+                        <h2>
+                            {$vo.ccont}
+                        </h2>
+                    </li>
+                    {/volist}
+                </ul>
+            </div>
+        </div>
+
+        <!--报名条件-->
+        <div class="lh-conditions lh-overflow padding65" id="#12">
+            <div class="container">
+                <h2 class="lh-other-h2 wow fadeInUp">
+                    {$reg.name}
+                </h2>
+                <ul class="lh-conditions-item clearfix lh-flex">
+                    {volist name="openreg" id="vo"}
+                    <li class="wow fadeInUp">
+                        <div>
+                            <div class="title">
+                                <h2>
+                                    {$vo.introduction_title}
+                                </h2>
+                                <h3 class="zt1">
+                                    {$vo.introduction_tag}
+                                </h3>
+                                <div class="img">
+                                    <img src=" {$vo.thumb}" />
+                                </div>
+                            </div>
+                            <div class="cont">
+                                <ul>
+                                    <li>
+                                        <span>01</span>
+                                        {$vo.ccont}
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    {/volist}
+                </ul>
+            </div>
+        </div>
+
+        <!-- 自考流程-->
+        {include file="public/process"}
+        <!-- major -->
+        {include file="public/major"}
+        <!-- 注意事项 -->
+        <!--流程-->
+        <!--学历提升的作用-->
+        {include file="public/role"}
+        <!--题库-->
+        {include file="public/bank"}
+        <!-- 证书展示 -->
+        {include file="public/certificate"}
+        <!-- 学生风采 -->
+        {include file="public/student"}
+        <!-- advantages -->
+        {include file="public/advantages"}
+    </div>
+</div>
+{include file="public/footer"}

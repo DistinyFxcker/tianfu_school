@@ -1,0 +1,515 @@
+@import url('./public.css');
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    position: relative;
+    max-width: 7.5rem;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+.header {
+    width: 100%;
+    background: rgb(0, 113, 185);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    height: 1rem;
+    padding: .1rem;
+}
+
+.nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav li {
+    padding: 0 10px;
+    float: left;
+    font-size: .25rem;
+    cursor: pointer;
+    border-right: 1px solid rgb(90, 160, 230);
+    color: #fff;
+}
+
+.nav li:nth-child(4) {
+    border-right-width: 0;
+}
+
+.nav li a {
+    display: inline-block;
+}
+
+/* content */
+
+.content {
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+    position: relative;
+}
+
+.banner-cont {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 1rem;
+}
+
+.banner-title {
+    width: 4rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: .72rem;
+    padding-top: .6rem;
+}
+
+.banner-img {
+    text-align: center;
+}
+
+.banner-title-2 {
+    width: 2.73rem;
+    font-size: 0.24rem;
+}
+
+.btn {
+    width: 4.3rem;
+    height: 0.5rem;
+    background: url('../images/pc/banner-btn2.webp') center center no-repeat;
+    background-size: contain;
+    border-radius: 23px;
+    color: rgb(187, 23, 29);
+    line-height: .5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: .24rem;
+}
+
+.banner-btn {
+    position: relative;
+    top: .8rem;
+}
+
+.school-btn {}
+
+.banner-img img {
+    width: 4rem;
+    height: auto;
+}
+
+.dis-c {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.clock-x {
+    width: 100%;
+    margin-bottom: .2rem;
+    padding: .2rem;
+    position: relative;
+}
+
+.clock-t {
+    width: 6.6rem;
+}
+
+.clockimg {
+    width: 100%;
+}
+
+.clock-bg {
+    width: 6.66rem;
+    height: 4.12rem;
+    margin: .5rem auto;
+    background: url('../images/mobile/clock-bg.webp') center no-repeat;
+    background-size: 6.66rem 4.12rem;
+    position: relative;
+}
+
+.clock-time {
+    position: absolute;
+    bottom: .7rem;
+    display: flex;
+    width: 6.2rem;
+    left: .7rem;
+    justify-content: space-between;
+}
+
+.clock-time li {
+    width: 1.7rem;
+    font-size: .32rem;
+    font-weight: bold;
+}
+
+.clock-time .num1 {
+    /* margin-left: .8rem; */
+}
+
+.clock-btn {
+    background-image: url("../images/pc/clock-btn.webp");
+    color: #fff;
+    margin: .2rem auto;
+}
+
+.school-x {
+    width: 100%;
+    height: auto;
+    background: url("../images/mobile/scholl.webp") center no-repeat;
+    background-size: cover;
+    padding-top: .4rem;
+    margin-top: .6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.school-img {
+    display: inline-block;
+    width: 6rem;
+    background-size: contain;
+    /* margin: .5rem auto .3rem; */
+    position: relative;
+}
+
+.title {
+    text-align: center;
+}
+
+.school-title {
+    width: 5.12rem;
+    height: auto;
+    margin: 0 auto;
+    font-size: 44px;
+    color: rgb(0, 113, 185);
+    text-align: center;
+}
+
+.school-h4 {
+    margin: 0 auto;
+    font-size: 0.2rem;
+    line-height: 0.32rem;
+    color: rgb(76, 79, 82);
+    text-align: center;
+    padding-bottom: .32rem;
+}
+
+.school-btn {
+    background-image: url("../images/pc/school-btn.webp");
+    color: #fff;
+    margin: .3rem auto;
+}
+
+.major-x {
+    padding: .4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.major-list {
+    width: 5rem;
+}
+
+.major-list li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.major-list li img {
+    width: 4.4rem;
+    height: auto;
+    margin-bottom: .4rem;
+}
+
+.words-x {
+    width: 100%;
+    height: auto;
+    background: url("../images/mobile/wordsbg.webp") center no-repeat;
+    background-size: cover;
+    padding: .4rem 0;
+    margin-bottom: .6rem;
+}
+
+.m-6 {
+    width: 6.6rem;
+    margin: 0 auto;
+}
+
+.words-title {
+    width: 4rem;
+    margin: 0 auto;
+    font-size: .4.4rem;
+    color: rgb(188, 23, 35);
+    text-align: center;
+}
+
+.words-lists {
+    width: 6.3rem;
+    overflow: hidden;
+}
+
+.words-list {
+    width: 100%;
+    height: .66rem;
+    background: url("../images/pc/wordlist.webp") center left no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    line-height: .6rem;
+    padding-left: .4rem;
+    position: relative;
+    margin-bottom: .1rem;
+    font-size: .2rem;
+    overflow: hidden;
+    /*超出部分隐藏*/
+    white-space: nowrap;
+    /*不换行*/
+    text-overflow: ellipsis;
+    /*超出部分文字以...显示*/
+}
+
+.whycheck-x {
+    position: relative;
+    margin-bottom: 0.6rem;
+}
+
+.whylist {
+    width: 6.09rem;
+}
+
+.learn-p-x {
+    margin-bottom: .6rem;
+}
+
+.learn-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .2rem;
+}
+
+.learn-item {
+    width: 3rem;
+    height: 1.8rem;
+    background: rgb(0, 113, 185);
+    border-radius: 5px;
+    color: #fff;
+    padding: 0.2rem 0;
+    text-align: center;
+    font-size: .2rem;
+    position: relative;
+}
+
+.learn-img {
+    width: 3.03rem;
+    height: 1.89rem;
+}
+
+.p-b-20 {
+    padding-bottom: .2rem;
+    padding-left: .2rem;
+    text-align: center;
+}
+
+.c-b {
+    background: url('../images/pc/p-5.webp') center no-repeat;
+    background-size: cover;
+}
+
+.learn-btn {
+    width: 2.28rem;
+    height: auto;
+    margin: 0 auto;
+}
+
+.advantage-x {
+    margin-bottom: .6rem;
+}
+
+.advantage-t {
+    width: 6.4rem;
+}
+
+.ad-list li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.photo {
+    position: relative;
+    left: .2rem;
+}
+
+.wenlu {
+    width: auto;
+    height: 240px;
+}
+
+.c-4 {
+    color: red;
+}
+
+.wenlut {
+    position: relative;
+    top: -.82rem;
+}
+
+.ad-img {
+    width: 1.4rem;
+    padding-left: .3rem;
+    vertical-align: middle;
+}
+
+.ad-t {
+    position: relative;
+    top: -.2rem;
+}
+
+.sign-x {
+    width: 100%;
+    background: url('../images/mobile/sign-bg.webp') center no-repeat;
+    background-size: cover;
+    padding: .3rem 0;
+}
+
+.input-x {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-btn {
+    width: 3.3rem;
+}
+
+.input-img {
+    width: 4rem;
+}
+
+.sign-x .clock-btn {
+    width: 80%;
+}
+
+.sign {
+    width: 4rem;
+    margin: .2rem auto;
+    height: .6rem;
+    line-height: .6rem;
+    border-radius: .3rem;
+    text-align: center;
+    background: rgb(0, 113, 185);
+    ;
+    color: #fff;
+}
+
+.contact {
+    width: 4rem;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid rgb(0, 113, 185);
+    background: #fff;
+    padding: .2rem;
+    box-sizing: border-box;
+    color: rgb(0, 113, 185);
+    font-size: .2rem;
+    text-align: justify;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.qr-img {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.qr {
+    width: 2rem;
+    padding: .2rem 0;
+    text-align: center;
+}
+
+/* footer */
+
+.footer {
+    height: auto;
+    cursor: pointer;
+    font-size: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: .4rem 0;
+}
+
+.f-logo {
+    width: 2.63rem;
+    height: .6rem;
+}
+
+.f-list {
+    padding: .1rem 0;
+}
+
+.f-list li {
+    float: left;
+}
+
+.copyright {
+    padding: .2rem 0;
+}
+
+/* 联系我们样式*/
+
+.contact-x {
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    background: rgb(0, 113, 185);
+}
+
+.contact-x li {
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-right: 1px solid #fff;
+}
+
+.contact-x :nth-child(3) {
+    border-right-width: 0;
+}
+
+.contact-x li a {
+    display: inline-block;
+    width: 100%;
+    line-height: 1rem;
+    font-size: .3rem;
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+<div class="lh-role" id="#9">
+    <div class="container">
+        <h2 class="lh-other-h2 wow fadeInUp">
+            学历提升的优势
+        </h2>
+        <div class="lh-overflow">
+            <ul class="lh-role-item lh-flex clearfix">
+                {volist name="education_list" id="vo"}
+                <li class="wow fadeInUp">
+                    <a href="javascript:;"
+                        data-url="{$config.customer_link}" class="lhLjzx">
+                        <div class="icon"></div>
+                        <div class="img">
+                        </div>
+                        <div class="text">
+                            <h2>
+                                {$vo.introduction_title}
+                            </h2>
+                            <h3>
+                                {$vo.introduction_tag}
+                            </h3>
+                            <h4>立即咨询</h4>
+                        </div>
+                    </a>
+                </li>
+                {/volist}
+            </ul>
+        </div>
+    </div>
+</div>

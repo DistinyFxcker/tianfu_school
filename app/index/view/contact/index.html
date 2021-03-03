@@ -1,0 +1,182 @@
+{include file="public/header"}
+<link rel="stylesheet" type="text/css" href="__CSS__/consultation.css"/>
+<style type="text/css" media="all">
+	.lh-message-input{
+		width: 500px;
+		margin:0 auto;
+		margin-top: 35px;
+	}
+	.lh-message-input li{
+		width: 100%;
+		padding-left:0;
+	}
+	@media screen and (max-width: 980px){
+		.lh-message-input{
+			width: 100%;
+		}
+	}
+</style>
+<!--main-->
+<div class="lh-main other">
+    <!--ban-->
+    {include file="public/ban"}
+    <div class="lh-position">
+        <!--other nav-->
+        {include file="public/second_menu"}
+        <!--contact us-->
+        <div class="lh-contact padding90" style="padding: 20px;">
+            <div class="container">
+                <div class="lh-contact-a clearfix wow fadeInUp">
+                    <h2 class="left">
+                        {$config.company}
+                    </h2>
+                    <div class="right">
+                        <h3>免费咨询热线</h3>
+                        <h4>
+                            {$config.contact_phone}
+                        </h4>
+                    </div>
+                </div>
+                <div class="lh-contact-b clearfix wow fadeInUp">
+                    <ul class="left clearfix">
+                        <li><i class="iconfont icon-dianhua"></i>电话&nbsp;&nbsp;&nbsp;&nbsp;
+                            {$config.contact_phone}
+                        </li>
+                        <li><i class="iconfont icon-yy"></i>邮箱&nbsp;&nbsp;&nbsp;&nbsp;
+                            {$config.contact_information['email']}
+                        </li>
+                        <li><i class="iconfont icon-dizhi1"></i>地址&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            {$config.company_address}
+                        </li>
+                    </ul>
+
+                    <div class="right">
+                        <div class="img"><img src="{$config.header_log|geturl}" /></div>
+
+                        <h2>
+                            商务合作
+                        </h2>
+                    </div>
+                    <div class="right">
+                        <div class="img"><img src="{$config.thumb|geturl}" /></div>
+
+                        <h2>
+                            查米教育服务
+                        </h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="lh-contact padding90" style="padding: 20px;">
+            {volist name="contact_list" id="vo"}
+            <div class="container">
+                <div class="lh-contact-a clearfix wow fadeInUp">
+                    <h2 class="left">{$vo.company}</h2>
+                </div>
+                <div class="lh-contact-b clearfix wow fadeInUp">
+                    <ul class="left clearfix">
+                        <!--<li><i class="iconfont icon-dianhua"></i>电话&nbsp;&nbsp;&nbsp;&nbsp; 17781230354（何老师）
+                         </li>
+-->
+                        <li><i class="iconfont icon-dizhi1"></i>地址&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  {$vo.address}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            {/volist}
+        </div>
+    </div>
+    <!--map-->
+    <div id="Map" class="lh-map wow zoomIn"></div>
+    <!--在线留言-->
+    <div class="lh-message padding90">
+        <div class="container">
+            <h2 class="wow fadeInUp">在线留言</h2>
+            <h3 class="wow fadeInUp">如果您对我们有建议或反馈，请在此页面填写相关信息并提交，会有工作人员及时与您联系，<span>*</span> 为必填</h3>
+            <form method="post" class="mesForm">
+                <ul class="lh-message-input lh-flex clearfix">
+                    <li class="wow fadeInUp">
+                        <div>
+                            <label>姓&emsp;&nbsp;&nbsp;&nbsp;名<span>*</span></label>
+                            <input class="formVal" autocomplete="off" type="text" name="name" placeholder="请输入您的姓名" />
+                        </div>
+                    </li>
+                    <li class="wow fadeInUp">
+                        <div>
+                            <label>电&emsp;&nbsp;&nbsp;&nbsp;话<span>*</span></label>
+                            <input class="formVal" autocomplete="off" type="text" name="tel" placeholder="请输入您的电话" />
+                        </div>
+                    </li>
+                    <!--<li class="wow fadeInUp">-->
+                    <!--    <div>-->
+                    <!--        <label>意向专业</label>-->
+                    <!--        <input class="formVal" autocomplete="off" type="text" name="come" placeholder="请输入您的想学的专业" />-->
+                    <!--    </div>-->
+                    <!--</li>-->
+                    <li class="wow fadeInUp">
+                        <div>
+                            <label>留言内容</label>
+                            <input class="formVal" type="text" name="cont" placeholder="请输入您的想说的文字内容" />
+                        </div>
+                    </li>
+                    <li class="wow fadeInUp">
+                        <a href="javascript:;" onclick="$(this).parent().submit()">提交留言</a>
+                        <input type="submit" style="display:none" />
+                    </li>
+
+                </ul>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+<!--footer-->
+{include file="public/footer" }
+
+
+<script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=ny22a16GzbMDs1xHsTvjlqtZYpwFhUbw"></script>
+<script type="text/javascript">
+    //创建地图
+
+    var myMap = new BMap.Map('Map');
+
+    var point = new BMap.Point(104.129172 , 30.619942);
+    var points = new BMap.Point(104.129172 , 30.619942);
+
+    myMap.centerAndZoom(point, 12);
+
+    var myIcon = new BMap.Icon("__IMG__/marker-icon.png", new BMap.Size(131, 135), {
+
+        //imageOffset:new BMap.Size(0,30)
+
+    }); //定义自己的标注
+
+
+
+    //添加覆盖物
+
+    var marker = new BMap.Marker(point, {
+        icon: myIcon
+    }); // 创建标注
+    var markers = new BMap.Marker(points, {
+        icon: myIcon
+    }); // 创建标注
+
+    myMap.addOverlay(marker); // 将标注添加到地图中
+    myMap.addOverlay(markers); // 将标注添加到地图中
+
+    marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+    markers.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+
+
+
+    //添加控件
+
+    myMap.addControl(new BMap.NavigationControl()); // 平移缩放
+
+    myMap.addControl(new BMap.OverviewMapControl()); //缩略地图
+
+    //myMap.enableScrollWheelZoom(); //滚轮缩放
+</script>
+<script type="text/javascript" src="__JS__/msg_sub.js"></script>

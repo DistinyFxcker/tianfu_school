@@ -1,0 +1,201 @@
+<div class="sidebox">
+    <ul class="clearlist">
+        <!--<li>-->
+        <!--    <a href="" target="_blank"><img src="__IMG__/slide_2.png"/></a>-->
+        <!--    <div class="cont qrcode">QQ咨询</div>-->
+        <!--</li>-->
+         <li class="footer-tel">
+            <a href="tel:400-060-0920"> <i class="iconfont icon-tubiao210"></i> </a>
+            <div class="cont servercont">免费咨询热线</div>
+        </li>
+        <li>
+            <a href="javascript:;" data-url="{$config.customer_link}" class="lhLjzx" target="_blank"><img src="__IMG__/sslid_1.png"/></a>
+            <div class="cont servercont">免费咨询</div>
+        </li>
+
+        <li class="code">
+            <a href="javascript:;"><img src="__IMG__/slide_3.png"/></a>
+            <div class="cont"><img src="__IMG__/qr/1040397846.jpg"/></div>
+        </li>
+        <li class="retop">
+            <a href="javascript:;">TOP</a>
+            <div class="cont">返回顶部</div>
+        </li>
+    </ul>
+</div>
+<footer class="lh-footer">
+    <div class="container1400">
+        <div class="lh-footer-a clearfix">
+            <div class="lh-footer-l left wow fadeInLeft">
+                <h2>免费咨询热线</h2>
+                <h3 class="zt1">
+                    {$config.contact_phone}
+                </h3>
+                <ul class="tel">
+                    <li><span>24小时咨询热线：</span>{$config.contact_information['support_hotline']}</li>
+                    <li><span>监督投诉电话：</span>{$config.contact_information['complaint_phone']}</li>
+                    <li><span>商务合作电话：</span>{$config.contact_information['cooperation_phone']}</li>
+                    <li><span>人才招聘：</span>{$config.contact_information['recruitment_phone']}</li>
+                </ul>
+                <dl>
+                    <dt>地址</dt>
+                    <dd>
+                        {$config.company_address}
+                    </dd>
+                </dl>
+                <!--<ul class="share clearfix">-->
+                <!--    <li>-->
+                <!--        <a href="javascript:;" data-type="weixin" class="lhShare">-->
+                <!--            <i class="iconfont icon-weixin1"></i>-->
+                <!--        </a>-->
+                <!--    </li>-->
+                <!--    <li>-->
+                <!--        <a href="javascript:;" data-type="qqhy" class="lhShare">-->
+                <!--            <i class="iconfont icon-qq"></i>-->
+                <!--        </a>-->
+                <!--    </li>-->
+                <!--</ul>-->
+            </div>
+            <div class="lh-footer-c left clearfix wow fadeInLeft">
+                <dl>
+                    <dt>
+                        <a href='{:url("/index/chami/index")}#97'>关于查米</a>
+                    </dt>
+                    <dd>
+                        <a href='{:url("/index/chami/index")}#97'>关于我们</a>
+                    </dd>
+                    <dd>
+                        <a href='{:url("/index/chami/index")}#119'>宣传视频</a>
+                    </dd>
+                    <dd>
+                        <a href='{:url("/index/chami/index")}#122'>企业荣誉</a>
+                    </dd>
+                    <dd>
+                        <a href='{:url("/index/chami/index")}#125'>查米文化</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href='{:url("/index/selfs/index")}'>业务板块</a>
+                    </dt>
+                    <dd>
+                        <a href='{:url("/index/selfs/index")}'>自学考试</a>
+                    </dd>
+                    <dd>
+                        <a href='{:url("/index/adult/index")}'>成人高考</a>
+                    </dd>
+                    <dd>
+                        <a href='{:url("/index/national/index")}'>国开大学</a>
+                    </dd>
+                    <dd>
+                        <a href='{:url("/index/online/index")}'>网络教育</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href='{:url("/index/advisory/index")}'>报考咨询</a>
+                    </dt>
+                    <dd>
+                        <a href='{:url("/index/advisory/index")}'>报考咨询</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href='{:url("/index/news/index")}'>新闻咨询</a>
+                    </dt>
+                    <dd>
+                        <a href='{:url("/index/news/hot")}'>热门新闻</a>
+                    </dd>
+                    <dd>
+                        <a href='{:url("/index/news/notice")}'>通知公告</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href='{:url("/index/contact/index")}'>联系我们</a>
+                    </dt>
+                    <dd>
+                        <a href='{:url("/index/contact/index")}'>联系我们</a>
+                    </dd>
+                    <dd>
+                        <a href='{:url("/index/contact/recruitment")}'>人才招聘</a>
+                    </dd>
+                    <dd>
+                        <a href='{:url("/index/contact/feedback")}'>意见反馈</a>
+                    </dd>
+                </dl>
+            </div>
+            <style>
+
+
+            </style>
+            <div class="footer-qr-x">
+
+                <div class="lh-footer-r right wow fadeInRight" style="margin-left: 20px;">
+                    <div class="img"><img src="{$config.header_log|geturl}"/></div>
+                    <h2>
+                        商务合作
+                    </h2>
+                </div>
+                <div class="lh-footer-r right wow fadeInRight">
+                    <div class="img"><img src="{$config.chamiedu_img|geturl}"/></div>
+                    <h2>
+                        扫码咨询报名
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <dl class="lh-footer-b clearfix wow fadeInUp">
+            <dt>友情链接</dt>
+            <dd>
+                {volist name="link_list" id="vo"}
+                <a href="{$vo.link}" target="_blank">
+                    {$vo.title}
+                </a>
+                {/volist}
+            </dd>
+        </dl>
+        <div class="lh-copy clearfix wow fadeInUp">
+            <h2 class="left">
+            	<a href="https://beian.miit.gov.cn" target="_blank">  {$config.copyright}</a>
+            </h2>
+            <h2 class="right">技术支持：<a href="#" target="_blank">查米技术部</a></h2>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="__JS__/jquery-1.8.2.min.js"></script>
+<script src="__JS__/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="__JS__/plug-in.js"></script>
+<script type="text/javascript" src="__JS__/public.js"></script>
+<!-- 客服代码 -->
+<script>
+    (function () {
+    	if($(window).width()>980){
+    	var _53code = document.createElement("script");
+        _53code.src = "https://tb.53kf.com/code/code/6806b0d67a0b08c412e210e31d43e9526/1";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(_53code, s);
+    	}else{
+    		
+    	}
+    })();
+</script>
+<script type="text/javascript" charset="utf-8">
+	     // 点击返回头部事件
+        $(".retop").click(function () {
+            $("html,body").animate({
+                scrollTop: 0
+            }, 500)
+            return false;
+        });
+        
+        if($(window).width()>980){
+        	$('.footer-tel').hide()
+        }else{
+        	$('.footer-tel').show()
+        }
+        
+</script>
+</body>
+
+</html>

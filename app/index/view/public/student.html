@@ -1,0 +1,30 @@
+<div class="lh-style padding75" id="#10" style="background-image:url({$studentstyle.thumb});">
+    <div class="container">
+        <h2 class="lh-other-h2 white wow fadeInUp">
+            {$studentstyle.name}
+        </h2>
+        <div class="lh-position lh-overflow">
+            <div class="lh-style-banner lh-public-banner" data-slidesPerView="3" data-webslidesPerView="1"
+                data-delay="3500" data-loop="1" data-autoplay="1">
+                <ul class="swiper-wrapper bd lh-style-item">
+                    {volist name="studentstyle_list" id="vo"}
+                    <li class="swiper-slide wow fadeInUp">
+                        <a href='{:url("/index/adult/detail",["id"=>$vo.id])}'>
+                            <div class="img" style="background-image:url({$vo.thumb});">
+                            </div>
+                            <div class="text">
+                                <h2>
+                                    {$vo.introduction_title}
+                                </h2>
+                                <pre> {$vo.ccont}</pre>
+                                <h3><i class="iconfont icon-elipples"></i>查看更多</h3>
+                            </div>
+                        </a>
+                    </li>
+                    {/volist}
+                </ul>
+                <ul class="lh-style-hd bannerbd wow fadeInUp"></ul>
+            </div>
+        </div>
+    </div>
+</div>
