@@ -5,7 +5,7 @@ use app\common\model\About as Model;
 use think\Db;
 use think\Request;
 /**
- * 成人高考查米优势
+ * 成人高考天府英才优势
  * Class Cadult
  * @package app\admin\controller
  */

@@ -6,7 +6,7 @@ use think\Db;
 use think\Request;
 
 /**
- * 查米优势
+ * 天府英才优势
  * @package app\admin\controller
  */
 class Openadvantage extends Permissions
