@@ -6,7 +6,7 @@ use think\Db;
 use think\Request;
 
 /**
- * 查米文化
+ * 文化
  * Class Culture
  * @package app\admin\controller
  */

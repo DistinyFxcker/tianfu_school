@@ -6,7 +6,7 @@ use think\Db;
 use think\Request;
 
 /**
- * 网络教育查米优势
+ * 网络教育天府英才优势
  * @package app\admin\controller
  */
 class Chamiadvantage extends Permissions

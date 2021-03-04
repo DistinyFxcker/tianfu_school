@@ -105,7 +105,7 @@ class Base extends Controller
         $contact_list = $contact->select();
         //学历提升的优势(共用)
         $education_list = $this->about->where(['source' => 'Enhancement'])->select();
-        //查米优势(共用)
+        //天府英才优势(共用)
         $chami_advantage = $this->about->where('source', 'Cadult')->select();
         //底部菜单
         $condition['pid'] = 52;

@@ -36,7 +36,7 @@ class Chami extends Base
            }
             $honor_list['thumbs'] = $arr;
         }
-        //查米文化
+        //天府英才文化
         $culture = $this->menu->where(['id'=>125,'type'=>2])->field('thumb,name,alias')->find();
         $culture['thumb'] = strHandleImg($culture['thumb']);
         $culture_list = $this->about->where('source','Culture')->select();
